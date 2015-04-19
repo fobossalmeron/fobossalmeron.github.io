@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Rodrigo Salmerón y Lucía Fernanda
+tagline: Una historia por SMSs
 ---
 {% include JB/setup %}
 
