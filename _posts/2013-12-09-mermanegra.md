@@ -3,7 +3,7 @@ layout: post
 title: Merma Negra
 cover: merma/portada.jpg
 date:   2015-04-20 1:00:00
-categories: posts
+categories: portafolio
 ---
 
 ## Proyecto: Front-End Development & E-Commerce

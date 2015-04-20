@@ -1,3 +1,8 @@
-name: Flex
+name: Rodrigosalmeron.mx
+email: fobos.salmeron@gmail.com
+description: Rodrigo Salmerón es un diseñador gráfico y desarrollador web. 
+twitter_username: fobossalmeron
+github_username: fobossalmeron
 markdown: redcarpet
 pygments: true
+permalink: /:categories/:title 
