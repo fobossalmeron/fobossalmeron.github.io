@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Jack & The Coward Committee
-cover: jack/portada.jpg
+title: Violometro
+cover: violometropagina.png
 date:   2015-04-20 12:00:00
 categories: portafolio
 ---
