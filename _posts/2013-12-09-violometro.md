@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Violometro
-cover: violometropagina.png
+cover: viol.png
 date:   2015-04-20 12:00:00
 categories: portafolio
 ---
