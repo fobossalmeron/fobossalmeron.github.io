@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kinoki Pito
+title: Kinoki
 cover: kinoki/kinoki-01.jpg
 date:   2015-04-20 12:00:00
 categories: portafolio
@@ -12,5 +12,5 @@ Proyecto: Branding y Front-End Development
 
 El sitio web puede consultarse en, [festivalkinoki.com](http://festivalkinoki.com).
 
-
+![My helpful screenshot]({{ site.url }}/images/kinoki/kinoki-02.jpg)
 
