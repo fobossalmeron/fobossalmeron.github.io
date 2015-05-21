@@ -4,28 +4,31 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.svg"></a></h1>
-          <span class="tagline">Rodrigo Salmerón</span>
+          <h1 class="title">Rodrigo Salmeron</h1>
+          <a href="/"><img id="logo" src="/images/logo2.svg" alt="rodrigo salmeron"></a>
         </div>
-        <div class="posts">
-          <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+
+        <div class="centerdiv">
+          <div class="container">
+                  <div id="follower"></div>
+          </div>
         </div>
-        <div class="footer">
-          <span id="footer-links">
-            <a href="/acercademi/" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="http//twitter.com/" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
-          </span>
-        </div>
+
+        <nav class="posts">
+          <ul class="nav">
+            <a href="/acercademi/"><li class="about">Acerca de mi</li></a>
+            <a href="/contacto/"><li>Contacto</li></a>
+            <li class="static"><em>Proyectos</em></li>
+              <ul class="posts-list">
+                {% for post in site.posts %}
+                  <li class="post-link">
+                    <a class="post-title" href="{{ post.url }}">
+                      {{ post.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+        </nav>
       </div>
 
         {{ content }}

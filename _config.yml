@@ -1,8 +1,17 @@
-name: Rodrigosalmeron.mx
-email: fobos.salmeron@gmail.com
+title: Rodrigo Salmeron
 description: Rodrigo Salmerón es un diseñador gráfico y desarrollador web. 
-twitter_username: fobossalmeron
-github_username: fobossalmeron
+
+name: Rodrigo Salmeron
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:categories/:title 
+
+social:
+   github: fobossalmeron
+   twitter: fobossalmeorn
+   facebook: fobossalmeron
+   email: fobossalmeron@gmail.com
+
+google_analytics: "UA-58263416-1"
+sass:
+  style: compressed

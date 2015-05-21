@@ -2,7 +2,7 @@
 layout: post
 title: Jack & The Coward Committee
 cover: jack/portada.jpg
-date:   2015-04-20 12:00:00
+date:   2012-04-20 12:00:00
 categories: portafolio
 ---
 
