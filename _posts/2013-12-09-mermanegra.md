@@ -2,7 +2,7 @@
 layout: post
 title: Merma Negra
 cover: merma/portada.jpg
-date:   2015-04-20 1:00:00
+date:   2014-04-20 1:00:00
 categories: portafolio
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Kinoki
+title: Festival Kinoki
 cover: kinoki/portada.jpg
-date:   2014-05-20 12:00:00
+date:   2015-05-20 12:00:00
 categories: portafolio
 ---
 

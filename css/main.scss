@@ -44,7 +44,7 @@ a img {
 }
 
 a:hover {
-  color: #555;
+  color: $black;
   border: none;
 }
 
@@ -79,43 +79,6 @@ h1.title{
   color: #777;
 }
 
-.posts-list {
-  list-style-type: none;
-  margin-top: -12px;
-  padding-top: 12px;
-  border-left: 2px solid $black;
-}
-
-.posts-list li {
-  border: none !important;
-  text-align: right;
-  font-size: 1.1em !important;
-  padding-bottom: 0px !important;
-
-  &::after{
-      content: "";
-      background-color: $black;
-      width: 0px;
-      height: 2px;
-      display: block;
-      transition: ease 1s;
-      z-index: -1;
-      clear: both;
-
-  }
-
-  &:hover{
-      background-color: white !important;
-      
-      a {
-        color: $black !important;
-      }
-
-       &::after{
-        width: 90%;
-      }
-  }
-}
 /*****************************************************************************/
 /*
 /* Site
@@ -190,7 +153,6 @@ h1.title{
 }
 
 #title {
-  color: #4a4a4a;
   margin-bottom: 0.35em;
   font-size: 3em;
   line-height: 40px;
@@ -275,97 +237,106 @@ h1.title{
 
 .sidebar {
   float: left;
-  width: 14%;
+  width: 225px;
   padding-left: 11em;
   padding-right: 3em;
 }
 
-.about{
-
-    a{
-      display: block;
-      clear:both;
-      
-            &::before{
-              content: "";
-              background-color: $black;
-              width: 0px;
-              float: left;
-              height: 27px;
-              margin: 0 -40px -8px 0;
-              display: inline-block;
-              transition: ease 1s;
-            }
-
-        &:hover {
-
-         &::before{
-          width: 20%;
-        }
-
-      }
-
-
-    }
-}
-
-.nav {
-
-  li {
-    font-size: 1.2em;
-    line-height: 1;
-    margin-bottom: 12px;
-    padding-bottom: 8px;
-    list-style-type: none;
-    font-weight: 500;
-    color: $black;
-    border-bottom: 2px solid $black;
-    transition: ease .4s;
-
-    a {
-      color: $black;
-      font-weight: 300;
-      font-weight: 600;
-      transition: ease .2s;
-      }
-
-  }
-
-}
-
-.static:hover{
-  background-color:white!important;
-  color: $black!important;
-}
-
-.proyectos{
+nav {
   text-align: center;
-  font-weight:300;
+  font-weight: 500;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+
+      li {
+        border-bottom: none !important;
+        overflow: hidden;
+        font-size: 1.2em;
+        line-height: 1;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        list-style-type: none;
+        font-weight: 600;
+
+          &:nth-child(3){
+              font-weight: 500;
+              margin-bottom: 0;
+              font-style: italic;
+
+                  &::after {
+                    display:none;
+                  }
+          }
+
+          &::after {
+            content: url("/images/flecha.svg");
+            width: 30px;
+            display: block;
+            margin-left: -290px;
+            transition: ease .8s;
+            z-index: -1;
+            clear: both;
+          }
+
+          &:hover {
+             &::after{
+              margin-left: -105px;
+            }
+          }
+      }
+
+      a {
+        display: block;
+        clear:both;
+        transition: ease .2s;
+        color: $black;
+      }
+
+      ul:nth-child(2) {
+          border-left: 2px solid $black;
+          border-top: 2px solid $black;
+
+          li{
+            text-align: right;
+            font-size: 1.1em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            transition: ease .3s;
+
+              &:nth-child(3){
+              font-weight: 600;
+              font-style: normal;
+              }
+
+               a {
+                font-size: 1.1em;
+                line-height: 1.8;
+                padding-right: 8px;
+               }
+
+              &::after{
+                content:"";
+                } 
+
+                &:hover {
+                  background-color: $black;
+
+                    
+                      a {
+                        color: white;
+                        font-weight: 500;
+                      }
+                }
+          }
+    }
+
 }
 
 .header {
   text-align: center;
   padding-top: 2.5em;
   font-size: 1.1em;
-}
-
-.post-link {
-  margin-bottom: 0.75em;
-}
-
-.post-title {
-  font-weight: 600;
-  font-size: 1.1em;
-  line-height: 1.8;
-}
-
-.post-date {
-  color: #8a8a8a;
-  font-weight: 600;
-  font-size: 0.65em;
-  display: block;
-  padding-top: 5px;
-  text-transform: uppercase;
 }
 
 #sidebar-button {
@@ -419,8 +390,9 @@ h1.title{
   box-shadow: none;
   color: $black;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.1em;
   transition: .3s ease;
+  border-radius: 0 !important;
 }
 
 form{
@@ -466,50 +438,38 @@ textarea{
   list-style-type: none;
   margin-bottom: 10.25em !important;
 
-  li{
+  a{
     float:left;
+    width: 53px;
+	  height: 53px;
+	  margin: 10px;
+	  background-size: 224px;
+	  background-repeat: no-repeat;
+	  background-image: url(/images/social.svg);
+	  border-bottom: none !important;
+	  transition: ease .4s;
+	  &:hover{
+	  	opacity: 0.8;
+	  }
   }
 
-}
-
-.social {
-  float: left;
-  width: 53px;
-  height: 53px;
-  margin: 10px;
-  background-size: 224px;
-  background-repeat: no-repeat;
-  background-image: url(/images/social.svg);
-  border-bottom: none !important;
 }
 
 .email {
   clear: left;
   background-position: 0px 0px;
 }
-.email:hover {
-  background-position: 0px -56px;
-}
 
 .facebook {
   background-position: -56px 0px;
-}
-.facebook:hover {
-  background-position: -56px -56px;
 }
 
 .tumblr {
   background-position: -113px 0px;
 }
-.tumblr:hover {
-  background-position: -113px -56px;
-}
 
 .twitter {
   background-position: -169px 0px;
-}
-.twitter:hover {
-  background-position: -169px -56px;
 }
 
 /*****************************************************************************/
@@ -541,6 +501,5 @@ textarea{
   top: -74px;
   left: 47px;
   overflow: hidden;
-  border: 1px solid #000000;
   z-index: -1;
 }
