@@ -4,6 +4,7 @@ title: Historia Política
 cover: historia/portada.jpg
 date:   2013-04-20 1:00:00
 categories: portafolio
+description: Diseño de Portadas
 ---
 
 ## Proyecto: Diseño de Portadas

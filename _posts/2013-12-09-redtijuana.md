@@ -4,6 +4,7 @@ title: Red Tijuana
 cover: red/portada.jpg
 date:   2013-04-20 1:00:00
 categories: portafolio
+description: Branding
 ---
 
 ## Proyecto: Branding

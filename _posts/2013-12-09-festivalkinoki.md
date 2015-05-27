@@ -4,6 +4,7 @@ title: Festival Kinoki
 cover: kinoki/portada.jpg
 date:   2015-05-20 12:00:00
 categories: portafolio
+description: Branding y Desarrollo de Front-End
 ---
 
 ## Festival Internacional de Cine Universitario Kinoki

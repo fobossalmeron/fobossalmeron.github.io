@@ -172,9 +172,25 @@ h1.title{
 
 }
 
+.entrytitle{
+  margin-bottom: 0.35em;
+  font-size: 3em;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  a{
+    text-decoration: underline;
+    color:$black;
+  }
+}
+
 .post a,
 #about a {
   border-bottom: 1px solid #8085C1;
+}
+
+.post h2 a {
+  text-transform: uppercase;
 }
 
 .post a:hover {

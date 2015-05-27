@@ -4,6 +4,7 @@ title: Jack & The Coward Committee
 cover: jack/portada.jpg
 date:   2012-04-20 12:00:00
 categories: portafolio
+description: Branding y Arte para EP
 ---
 
 ## Proyecto: Branding y Arte para EP

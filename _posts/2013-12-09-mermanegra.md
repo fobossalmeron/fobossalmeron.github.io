@@ -4,6 +4,7 @@ title: Merma Negra
 cover: merma/portada.jpg
 date:   2014-04-20 1:00:00
 categories: portafolio
+description: E-Commerce y Desarrollo de Front-end
 ---
 
 ## Proyecto: E-Commerce y Desarrollo de Front-end
