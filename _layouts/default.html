@@ -4,25 +4,43 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title">Rodrigo Salmeron</h1>
+          <h1 class="title">Rodrigo Salmerón</h1>
           <a href="/"><img id="logo" src="/images/logo2.svg" alt="rodrigo salmeron"></a>
         </div>
 
-        <div class="centerdiv">
-          <div class="container">
-                  <div id="follower"></div>
+        <div class="contenedorOjo">
+          <div class="cajaOjo">
+                  <div id="cursorOjo"></div>
           </div>
         </div>
 
         <nav>
           <ul>
-            <a href="/acercademi/"><li>Acerca de mi</li></a>
-            <a href="/contacto/"><li>Contacto</li></a>
-            <li class="proyectos">Proyectos</li>
+              <li {% if page.title == 'Acerca de mi' %}
+                class= "active"
+              {% endif %}>
+                 <a href="/acercademi/">
+                  Acerca de mi
+                 </a>
+              </li>
+              <li{% if page.title == 'Contacto' %}
+                class= "active"
+              {% endif %}> 
+                  <a href="/contacto/">
+                Contacto
+                  </a>
+              </li>
+              <li>
+                 <a>
+                Proyectos
+                  </a>
+              </li>
             </ul>
             <ul>
                 {% for post in site.posts %}
-                  <li>
+                  <li{% if page.title == post.title %}
+                   class= "activesub"
+                  {% endif %}>
                     <a href="{{ post.url }}">
                       {{ post.title }}
                     </a>

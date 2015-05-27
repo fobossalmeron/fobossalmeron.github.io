@@ -13,9 +13,11 @@ window.onload = function() {
   sidebarButton.addEventListener("click", openSidebar, false);
 };
 
+//Eye
+
 var mouseX = 0, mouseY = 0, limitX = 35-15, limitY = 20-15;
 $(window).mousemove(function(e){
-  var offset = $('.container').offset();
+  var offset = $('.cajaOjo').offset();
    mouseX = Math.min(e.pageX - offset.left, limitX);
    mouseY = Math.min(e.pageY - offset.top, limitY);
    if (mouseX < 0) mouseX = 0;
@@ -23,7 +25,7 @@ $(window).mousemove(function(e){
 });
 
 // cache the selector
-var follower = $("#follower");
+var follower = $("#cursorOjo");
 var xp = 0, yp = 0;
 var loop = setInterval(function(){
     // change 12 to alter damping higher is slower
