@@ -5,12 +5,13 @@ title: Inicio
 
 <div class="content">
 {% for post in site.posts %}
-	<div id="cover-photo-container">
+	<figure>
       <a href="{{ post.url }}"><img id="cover-photo" src="/images/{{ post.cover }}"></a>
-    </div>
-    <div class="post">
-	    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <figcaption>
+	    <h2>{{ post.title }}</h2>
 		<p>{{ post.description }}</p>
-    </div>
+		<a href="{{ post.url }}">Ver Proyecto</a>
+    </figcaption>
+    </figure>
 {% endfor %}
 </div>
