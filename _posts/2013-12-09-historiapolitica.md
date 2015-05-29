@@ -4,21 +4,18 @@ title: Historia Política
 cover: historia/portada.jpg
 date:   2013-04-20 1:00:00
 categories: portafolio
-description: Diseño de Portadas
+description: Diseño de Colección
 ---
 
-## Proyecto: Diseño de Portadas
+## _Proyecto_: Diseño de Colección
+
+Historia Política es una colección de libros sobre historia política; Instituto Mora. 
 
 ![proyecto-01][proyecto-01]
-
 ![proyecto-02][proyecto-02]
-
 ![proyecto-03][proyecto-03]
-
 ![proyecto-04][proyecto-04]
-
 ![proyecto-05][proyecto-05]
-
 ![proyecto-06][proyecto-06]
 
 [proyecto-01]: /images/historia/historia-01.jpg

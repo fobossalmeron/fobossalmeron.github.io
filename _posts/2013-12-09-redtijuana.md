@@ -7,20 +7,15 @@ categories: portafolio
 description: Branding
 ---
 
-## Proyecto: Branding
+## _Proyecto:_ Branding
 
-Red Tijuana es una red.
+Red Tijuana es una asociación civil en Tijuana.
 
 ![proyecto-01][proyecto-01]
-
 ![proyecto-02][proyecto-02]
-
 ![proyecto-03][proyecto-03]
-
 ![proyecto-04][proyecto-04]
-
 ![proyecto-05][proyecto-05]
-
 ![proyecto-06][proyecto-06]
 
 [proyecto-01]: /images/red/red-01.jpg

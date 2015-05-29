@@ -26,7 +26,7 @@ html, body {
 
 body {
   color: $black;
-  background-color: #ffffff;
+  background-color: $white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 0.75em;
@@ -34,7 +34,7 @@ body {
 }
 
 a {
-  color: #8085C1;
+  color: $contrastblue;
   text-decoration: none;
   border: none;
 }
@@ -50,10 +50,6 @@ a:hover {
 
 img{
   max-width: 100%;
-}
-
-.separator {
-  color: #555;
 }
 
 /*****************************************************************************/
@@ -72,11 +68,11 @@ h1.title{
 }
 
 .posts a {
-  color: #444;
+  color: $contrastblue;
 }
 
 .posts a:hover {
-  color: #777;
+  color: $black;
 }
 
 /*****************************************************************************/
@@ -97,15 +93,6 @@ h1.title{
   line-height: 25px;
 }
 
-.tagline {
-  width: 100%;
-  color: #787878;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 0.5em;
-  display: block;
-}
-
 .posts {
   text-align: center;
   font-weight: 500;
@@ -114,37 +101,15 @@ h1.title{
   padding-bottom: 1.25em;
 }
 
-.footer {
-  font-size: 0.95em;
-  border-top: 1px solid #e7e7e7;
-  padding-top: 1.25em;
-  padding-bottom: 1.5em;
-  overflow: hidden;
-  float: center;
-  text-align: center;
-}
-
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
 
-#date {
-  font-size: 16px;
-  padding-top: 0.25em;
-  margin-bottom: 2em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #787878;
-}
-
 #cover-photo-container,
 #info-container {
   display: block;
-}
-
-#cover-photo{
 }
 
 #info-container {
@@ -153,10 +118,10 @@ h1.title{
 }
 
 #title {
-  margin-bottom: 0.35em;
-  font-size: 3em;
-  line-height: 40px;
+  font-size: 2em;
+  line-height: 5px;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
 .post {
@@ -168,25 +133,14 @@ h1.title{
   h2 {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    font-size: 16px;
   }
 
-}
-
-.entrytitle{
-  margin-bottom: 0.35em;
-  font-size: 3em;
-  line-height: 40px;
-  text-transform: uppercase;
-
-  a{
-    text-decoration: underline;
-    color:$black;
-  }
 }
 
 .post a,
 #about a {
-  border-bottom: 1px solid #8085C1;
+  border-bottom: 1px solid $contrastblue;
 }
 
 .post h2 a {
@@ -197,15 +151,8 @@ h1.title{
   border: none;
 }
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
 .post p {
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 1.45em;
   text-align: justify;
 }
@@ -213,6 +160,13 @@ h1.title{
 .post ul, .post ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
+}
+
+/* code */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
 }
 
 .post code {
@@ -225,7 +179,6 @@ h1.title{
   border: none;
 }
 
-/* terminal */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
@@ -254,8 +207,7 @@ h1.title{
 .sidebar {
   float: left;
   width: 205px;
-  padding-left: 11em;
-  padding-right: 3em;
+  padding:0 3em;
 }
 
 nav {
@@ -334,7 +286,7 @@ nav {
 
                     
                       a {
-                        color: white;
+                        color: $white;
                         font-weight: 500;
                       }
                 }
@@ -347,7 +299,7 @@ nav {
     background-color: $black;
 
   a{
-    color:white;
+    color:$white;
   }
 }
 .active{
@@ -382,7 +334,7 @@ nav {
   display: none;
   padding: 15px 5px 0px 0px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid $black;
 }
 
 #sidebar-button:active,
@@ -399,13 +351,12 @@ nav {
 .colophon {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
-  border-top: 1px dotted #e7e7e7;
 }
 
 .colophon p {
   margin-top: 1.25em;
   font-size: 0.95em;
-  color: #777;
+  color: $black;
   margin-left: 2.15em;
 }
 
@@ -415,22 +366,36 @@ nav {
 /*
 /*****************************************************************************/
 
-.sendbutton{
-  text-transform: uppercase;
-  padding: 13px;
-  margin-top: 35px;
-  border-bottom: 2px solid $black;
-  border-right: 2px solid $black;
-  border-top: none;
-  border-left: none;
-  background-color: white;
-  box-shadow: none;
-  color: $black;
-  font-weight: 600;
-  font-size: 1.1em;
-  transition: .3s ease;
-  border-radius: 0 !important;
-}
+.sendbutton {
+  text-align: center;
+  padding: 15px;
+  border-radius: 2px;
+  position: relative;
+  font-weight: 500;
+  font-size: 1.2em;
+  border: 1px solid $black;
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  background-color: $black;
+  color: $white;
+  transition: ease .2s;
+  margin-top: 20px;
+
+          &:hover{
+            background-color: $white;
+            color:black;
+            border: solid 1px $black;
+
+              &::before{
+                background-color:white;
+              }
+
+              &::after{
+                background-color: $black;
+              }
+          }
+      }
 
 form{
   width:50%;
@@ -447,20 +412,24 @@ input{
   line-height: 2;
   border-radius: 2px;
   box-shadow: none;
-  border: 1px solid #ccc;
+  border: 1px solid lightgrey;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   font-weight: 600;
   padding-left: 10px;
   float: left;
   clear:both;
+
+    &:focus {
+    outline-color: $blue;
+    }
 }
 
 textarea{
   line-height: 2;
   border-radius: 2px;
   box-shadow: none;
-  border: 1px solid #ccc;
+  border: 1px solid lightgrey;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   font-weight: 600;
@@ -469,44 +438,61 @@ textarea{
   clear:both;
   min-height: 100px;
   width: 100%;
+
+      &:focus {
+    outline-color: $blue;
+    }
 }
 
 .social-links{
   list-style-type: none;
-  margin-bottom: 10.25em !important;
+  margin-bottom: 12.25em !important;
+  margin-left: 0px !important;
 
-  a{
-    float:left;
-    width: 53px;
-	  height: 53px;
-	  margin: 10px;
-	  background-size: 224px;
-	  background-repeat: no-repeat;
-	  background-image: url(/images/social.svg);
-	  border-bottom: none !important;
-	  transition: ease .4s;
-	  &:hover{
-	  	opacity: 0.8;
-	  }
-  }
-
+    li{
+      width: 100px;
+      height: 100px;
+      margin: 0;
+      float: left;
+      background-color: $black;
+      transition: ease 0.4s;
+      background-image: url(/images/social.svg);
+      background-repeat: no-repeat;
+      background-size: 330px;
+      }
 }
 
 .email {
   clear: left;
-  background-position: 0px 0px;
+  background-position: 10px 10px;
+      &:hover{
+        background-color: $mail;
+      }
 }
 
 .facebook {
-  background-position: -56px 0px;
-}
-
-.tumblr {
-  background-position: -113px 0px;
+  background-position: -70px 10px;
+  opacity: 0.9;
+      &:hover{
+        background-color: $facebook;
+        opacity: 1;
+      }
 }
 
 .twitter {
-  background-position: -169px 0px;
+  background-position: -237px 10px;
+      &:hover{
+        background-color: $twitter;
+      }
+}
+
+.tumblr {
+  background-position: -155px 10px;
+  opacity: 0.9;
+      &:hover{
+        background-color: $tumblr;
+        opacity: 1;
+      }
 }
 
 /*****************************************************************************/
@@ -533,7 +519,7 @@ textarea{
   width: 55px;
   height: 30px;
   position: absolute;
-  top: -73px;
+  top: -65px;
   left: 47px;
   overflow: hidden;
   z-index: -1;
@@ -546,7 +532,7 @@ textarea{
 /*****************************************************************************/
 
 #loaderindex {
-  background-color: #ffffff;
+  background-color: $white;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -571,59 +557,35 @@ textarea{
   margin: 0 auto; 
 }
 
-.eyes::before {
-	content:'';
-	/*position:absolute;
-	top:50%;*/
-  left: 9px;
-  width: 40px;
-  height: 40px;
-  margin-top: -31px;
-  background: black;
-  -webkit-border-top-left-radius: 30px;
-  -webkit-border-bottom-right-radius: 30px;
-  -moz-border-radius: 30px 0 30px 0;
-  border-radius: 32px 0 32px 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  border: 4px solid purple;
-  transform: rotate(45deg);
-}
-
-.eyes::after {
-	content:'';
-  left: 17px;
-  width: 16px;
-  height: 16px;
-  border: 4px solid #fff;
-  margin-top: -24px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
+/*****************************************************************************/
+/*
+/* "Carousel Inicio"
+/*
+/*****************************************************************************/
 
 figure {
 	margin: 0;
 	position: relative;
 	overflow: hidden;
+  margin-bottom: 30px;
 
-	img{
+	img {
 		max-width: 100%;
 		display: block;
 		position: relative;
 		-webkit-transition: -webkit-transform 0.4s;
 		-moz-transition: -moz-transform 0.4s;
-		transition: transform 0.4s;
+    transition: transform 0.4s, opacity 0.8s;
+    opacity: 1;
 	}
 
-	&:hover{
+	&:hover {
 		img{
 			-webkit-transform: translateY(-50px);
 			-moz-transform: translateY(-50px);
 			-ms-transform: translateY(-50px);
 			transform: translateY(-50px);
+      opacity:0.9;
 		}
 		figcaption {
 			opacity: 1;
@@ -643,9 +605,9 @@ figcaption {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: white;
-	color: $black;
-	height: 250px;
+	background: $black;
+	color: white;
+	height: 25%;
 	width: 100%;
 	top: auto;
 	bottom: 0;
@@ -658,16 +620,82 @@ figcaption {
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 
-	a{
-		text-align: center;
-	  padding: 15px 14px;
-	  border-radius: 2px;
-	  font-weight: 500;
-	  font-size: 1.2em;
-	  display: block;
-	  width: 100px;
-	  background: #272727;
-	  color: #fff;
-	  margin: 0 auto;
-	}
+      h2 {
+        font-size: 2em;
+        line-height: 20px;
+        margin-bottom: 0.35em;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 15px;
+        margin-bottom: 1.45em;
+      }
+
+    	a {
+        text-align: center;
+        padding: 15px 14px 15px 67px;
+        border-radius: 2px;
+        position: relative;
+        font-weight: 500;
+        font-size: 1.2em;
+        display: block;
+        width: 100px;
+        background-color: white;
+        color: #272727;
+        margin: 0 auto;
+        transition: ease .2s;
+
+          &::before {
+            content: '';
+            position: absolute;
+            top: 39px;
+            display: block;
+            left: 24px;
+            width: 30px;
+            margin-left: 0px;
+            height: 30px;
+            margin-top: -31px;
+            background-color: $black;
+            -webkit-border-top-left-radius: 30px;
+            -webkit-border-bottom-right-radius: 30px;
+            -moz-border-radius: 30px 0 30px 0;
+            border-radius: 32px 0 32px 0;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            transition: ease .2s;
+          }
+          &::after {
+            content: '';
+            display: block;
+            left: 32px;
+            top: 40px;
+            position: absolute;
+            width: 10px;
+            z-index: 20;
+            height: 10px;
+            border: 2px solid #fff;
+            margin-top: -24px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            transition: ease .2s;
+          }
+
+          &:hover{
+            background-color: $black;
+            color:white;
+
+              &::before{
+                background-color:white;
+              }
+
+              &::after{
+                background-color: $black;
+              }
+          }
+    	}
 }

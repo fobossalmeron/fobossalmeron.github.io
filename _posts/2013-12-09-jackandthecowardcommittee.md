@@ -7,20 +7,17 @@ categories: portafolio
 description: Branding y Arte para EP
 ---
 
-## Proyecto: Branding y Arte para EP
+## _Proyecto:_ Branding y Arte para EP
+
+Jack & The Coward Committee es una banda mexicana caracterizada por estar conformada por cobardes.
 
 El material musical puede consultarse en [cowardcommittee.bandcamp.com][cowardbandcamp].
 
 ![proyecto-01][proyecto-01]
-
 ![proyecto-02][proyecto-02]
-
 ![proyecto-03][proyecto-03]
-
 ![proyecto-04][proyecto-04]
-
 ![proyecto-05][proyecto-05]
-
 ![proyecto-06][proyecto-06]
 
 

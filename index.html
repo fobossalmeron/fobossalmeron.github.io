@@ -6,10 +6,10 @@ title: Inicio
 <div class="content">
 {% for post in site.posts %}
 	<figure>
-      <a href="{{ post.url }}"><img id="cover-photo" src="/images/{{ post.cover }}"></a>
+      <a href="{{ post.url }}"><img src="/images/{{ post.cover }}"></a>
     <figcaption>
 	    <h2>{{ post.title }}</h2>
-		<p>{{ post.description }}</p>
+		<p><em>Proyecto:</em> {{ post.description }}</p>
 		<a href="{{ post.url }}">Ver Proyecto</a>
     </figcaption>
     </figure>

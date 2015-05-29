@@ -7,20 +7,17 @@ categories: portafolio
 description: E-Commerce y Desarrollo de Front-end
 ---
 
-## Proyecto: E-Commerce y Desarrollo de Front-end
+## _Proyecto:_ E-Commerce y Desarrollo de Front-end
+
+Merma Negra es una línea de diseñadores mexicanos. 
 
 El sitio web puede consultarse en [mermanegra.com][mermanegra.com].
 
 ![proyecto-01][proyecto-01]
-
 ![proyecto-02][proyecto-02]
-
 ![proyecto-03][proyecto-03]
-
 ![proyecto-04][proyecto-04]
-
 ![proyecto-05][proyecto-05]
-
 ![proyecto-06][proyecto-06]
 
 
