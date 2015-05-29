@@ -62,6 +62,12 @@ img{
   max-width: 210px;
 }
 
+#logomobile{
+	width: 100%;
+  max-width: 210px;
+	display: none;
+}
+
 h1.title{
   text-indent: -100000px;
   line-height:0;
@@ -112,6 +118,11 @@ h1.title{
   display: block;
 }
 
+#cover-photo-container{
+	    max-height: 720px;
+	    overflow: hidden;
+}
+
 #info-container {
   margin-top: 3em;
   margin-left: 2.15em;
@@ -126,7 +137,7 @@ h1.title{
 
 .post {
   line-height: 24px;
-  max-width: 825px;
+  max-width: 930px;
   clear: both;
   margin: 0 2.15em;
 
@@ -154,12 +165,7 @@ h1.title{
 .post p {
   font-size: 15px;
   margin-bottom: 1.45em;
-  text-align: justify;
-}
-
-.post ul, .post ol {
-  margin-left: 2.35em;
-  margin-bottom: 1.25em;
+  text-align: left;
 }
 
 /* code */
@@ -381,6 +387,7 @@ nav {
   color: $white;
   transition: ease .2s;
   margin-top: 20px;
+  margin-bottom: 3em;
 
           &:hover{
             background-color: $white;
@@ -446,8 +453,9 @@ textarea{
 
 .social-links{
   list-style-type: none;
-  margin-bottom: 12.25em !important;
-  margin-left: 0px !important;
+  margin-bottom: 12.25em;
+  margin-left: 0px;
+
 
     li{
       width: 100px;
@@ -567,6 +575,7 @@ figure {
 	margin: 0;
 	position: relative;
 	overflow: hidden;
+	max-height: 720px;
   margin-bottom: 30px;
 
 	img {
@@ -608,6 +617,7 @@ figcaption {
 	background: $black;
 	color: white;
 	height: 22%;
+	min-height: 110px;
 	width: 100%;
 	top: auto;
 	bottom: 0;
