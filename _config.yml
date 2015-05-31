@@ -15,3 +15,6 @@ social:
 google_analytics: "UA-58263416-1"
 sass:
   style: compressed
+
+gems:
+  - jekyll-sitemap
