@@ -11,7 +11,7 @@ description: E-Commerce y desarrollo de front end
 
 Merma Negra es una línea emergente de moda liderada por diseñadores mexicanos que tiene por objetivo disolver las líneas de género en la moda que marca la sociedad, así como proponer nuevas alternativas de vestuario manteniendo a la vanguardia el diseño en México.
 
-El proyecto consistió en el desarrollo de su sitio web y portal de ventas en línea *(E-commerce)*, el sitio puede consultarse en [mermanegra.com][mermanegra.com]. Este diseño se enfocó en la usabilidad que debe brindar el sitio tanto en plataformas de escritorio como en sus versiones para tablet y móvil. 
+El proyecto consistió en el desarrollo de su sitio web y portal de ventas en línea *(E-commerce)*, el sitio puede consultarse en [mermanegra.com][mermanegra.com]. Este diseño se enfocó en la usabilidad que debe brindar el sitio tanto en plataformas de escritorio como en sus versiones para tablet y móvil. Diseñé y desarrollé este sitio con PHP.
 
 ![proyecto-01][proyecto-01]
 ![proyecto-02][proyecto-02]

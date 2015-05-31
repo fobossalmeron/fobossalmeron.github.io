@@ -9,7 +9,9 @@ description: Branding
 
 ## _Proyecto:_ Branding
 
-Red Tijuana es una asociación civil en Tijuana.
+Red Tijuana es un proyecto de la sociedad civil que tiene por objetivo conectar múltiples células comunitarias y organizaciones por medio de la implementación de una serie de programas de educación democrática.
+
+El proyecto consitió en diseñar el branding general del proyecto y el de cada uno de sus diferentes programas conservando una unidad conceptual que fuera atractiva y fácil de identificar.  
 
 ![proyecto-01][proyecto-01]
 ![proyecto-02][proyecto-02]
