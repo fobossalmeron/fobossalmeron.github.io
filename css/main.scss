@@ -30,7 +30,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 0.75em;
-  overflow: hidden;
 }
 
 a {
@@ -207,7 +206,6 @@ h1.title{
   height: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .sidebar {
