@@ -221,46 +221,38 @@ nav {
   padding-top: 1.5em;
   padding-bottom: 1.25em;
 
-        li {
-          overflow: hidden;
-          font-size: 1.1em;
-          line-height: 1;
-          list-style-type: none;
-          padding-top: 7px;
-          margin-bottom: -7px;
-
-         &:nth-child(3){
-
-             &:hover{
-                  &::after {
-                    margin-left: -95px;
-                  }
-             }
-          }
-
-          &::after {
-            content: url("/images/flecha.svg");
-            width: 30px;
-            display: block;
-            margin-left: -95px;
-            transition: ease .8s;
-            z-index: -1;
-            clear: both;
-          }
-
-          &:hover {
-             &::after{
-              margin-left: -290px;
-            }
-          }
-      }
-
-      a {
+  		a {
         display: block;
         clear:both;
-        transition: ease .2s;
         color: $black;
-        padding-bottom: 2px;
+        transition: ease .2s;
+      }
+
+      li {
+        overflow: hidden;
+        font-size: 1.1em;
+        line-height: 1;
+        list-style-type: none;
+        padding: 6px 0 5px 0;
+        border-bottom: 2px solid $black;
+        transition: ease .3s;
+        position: relative;
+
+		      &:hover {
+		        background-color: $black;
+		        color: $white;
+			        a {
+			         color: $white;
+			        }
+		      }
+
+		      &:nth-child(3) {
+
+				      &:hover {
+				        background-color: $white;
+				        color: $black;
+				      }
+		      }        
       }
 
       ul:nth-child(2) {
@@ -270,60 +262,35 @@ nav {
             font-size: 1em;
             margin-bottom: 0;
             padding-bottom: 0;
-            transition: ease .3s;
             text-transform: capitalize;
             padding: 2px 8px;
             text-align: right;
+            border-bottom: none;
+            position: relative;
 
-               a {
-                font-size: 1.1em;
-                line-height: 1.8;
-                padding-bottom: 0px;
-               }
+            a {
+             font-size: 1.1em;
+             line-height: 1.8;
+             padding-bottom: 0px;
+            }
 
-              &::after{
-                display:none;
-                } 
+		     		&:nth-child(3){
 
-                &:hover {
-                  background-color: $black;
-
-                    
-                      a {
-                        color: $white;
-                        font-weight: 500;
-                      }
-                }
-          }
+						   &:hover {
+				        background-color: $black;
+				        color: $white;
+					     }
+				    }        
+         }
     }
-
 }
 
-.activesub{
-    background-color: $black;
-
-  a{
-    color:$white;
-  }
-}
 .active{
-
-  &::before{
-    content: "";
-    display: inline-block;
-    height: 27px;
-    float: left;
-    margin-bottom: -20px;
     background-color: $black;
-    width: 5px;
-    margin-top: -7px;
-  }
-
-  &:hover{
-    &::after{
-      margin-left: -95px !important; 
-    }
-  }
+    color:$white;
+	    a {
+	      color:$white;
+	    }
 }
 
 .header {

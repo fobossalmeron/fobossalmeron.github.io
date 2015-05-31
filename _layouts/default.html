@@ -24,30 +24,30 @@
 
         <nav>
           <ul>
-              <li {% if page.title == 'Acerca de mi' %}
-                class= "active"
-              {% endif %}>
-                 <a href="/acercademi/">
-                  Acerca de mi
-                 </a>
-              </li>
-              <li{% if page.title == 'Contacto' %}
-                class= "active"
-              {% endif %}> 
-                  <a href="/contacto/">
-                Contacto
-                  </a>
-              </li>
+              <a href="/acercademi/">
+                <li {% if page.title == 'Acerca de mi' %}
+                  class= "active"
+                {% endif %}>
+                    Acerca de mi
+                </li>
+              </a>
+              <a href="/contacto/">
+                <li{% if page.title == 'Contacto' %}
+                  class= "active"
+                {% endif %}> 
+                  Contacto
+                </li>
+              </a>
               <li>
-                 <a>
+                 
                 Proyectos
-                  </a>
+                  
               </li>
             </ul>
             <ul>
                 {% for post in site.posts %}
                   <li{% if page.title == post.title %}
-                   class= "activesub"
+                   class= "active"
                   {% endif %}>
                     <a href="{{ post.url }}">
                       {{ post.title }}

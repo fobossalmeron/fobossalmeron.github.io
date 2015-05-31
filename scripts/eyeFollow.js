@@ -19,3 +19,33 @@ var loop = setInterval(function(){
     follower.css({left:xp, top:yp});
     
 }, 30);
+
+
+//Comment Animation
+
+var domAnimator = new DomAnimator();
+
+            var frame1 = ['       ,--.        ',
+                          '      ([ oo]       ',
+                          '       `- ^     RODRIGO',
+                          "    _   S`-'_    SALMERÓN",
+                          "   .o(`-S-´)o.     ",
+                          "   |( `-S-´ )|     Dentro de mi esqueleto",
+                          "   |(`--S--´)|     ",
+                          "                   "];      
+
+
+
+            var frame2 = ['       ,--.        ',
+                          '      ([ --]       ',
+                          '       `- ^     RODRIGO',
+                          "    _   S`-'_    SALMERÓN",
+                          "   .o(`-S-´)o.     ",
+                          "   |( `-S-´ )|     Dentro de mi esqueleto",
+                          "   |(`--S--´)|     ",
+                          "                   "];      
+
+domAnimator.addFrame(frame1);
+domAnimator.addFrame(frame2);
+domAnimator.animate();
+
