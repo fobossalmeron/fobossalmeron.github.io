@@ -4,13 +4,13 @@ title: Festival Kinoki
 cover: kinoki/portada.jpg
 date:   2015-05-20 12:00:00
 categories: portafolio
-description: Branding y Desarrollo de Front-End
+description: Branding y desarrollo de front end
 ---
-##_Proyecto_: Branding y Desarrollo de Front-End
+##_Proyecto_: Branding y desarrollo de front end
 
-El Festival Internacional de Cine Universitario Kinoki es un festival. 
+El Festival Internacional de Cine Universitario Kinoki es un festival de cortometrajes que se organiza anualmente por alumnos de la Universidad Iberoamericana.
 
-El sitio web puede consultarse en [festivalkinoki.com][festivalkinoki.com].
+El proyecto consistió en el diseño del branding para la onceava edición de este festival; así como el de la interfaz de usuario y desarrollo de front end para su sitio web, éste puede consultarse en [festivalkinoki.com][festivalkinoki.com]. 
 
 ![proyecto-01][proyecto-01]
 ![proyecto-02][proyecto-02]

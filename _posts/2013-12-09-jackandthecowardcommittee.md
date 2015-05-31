@@ -4,14 +4,14 @@ title: Jack & The Coward Committee
 cover: jack/portada.jpg
 date:   2012-04-20 12:00:00
 categories: portafolio
-description: Branding y Arte para EP
+description: Branding y arte para EP
 ---
 
-## _Proyecto:_ Branding y Arte para EP
+## _Proyecto:_ Branding y arte para EP
 
-Jack & The Coward Committee es una banda mexicana caracterizada por estar conformada por cobardes.
+Jack & The Coward Committee es una banda mexicana caracterizada por estar conformada por cobardes. Puede consultarse su material en [cowardcommittee.bandcamp.com][cowardbandcamp].
 
-El material musical puede consultarse en [cowardcommittee.bandcamp.com][cowardbandcamp].
+Este proyecto fue realizado en 2011 y consistió en el branding general de la banda y el diseño/arte de su EP *Songs From The Cave*, esto último incluye el booklet para CD y las portadas individuales para cada single.
 
 ![proyecto-01][proyecto-01]
 ![proyecto-02][proyecto-02]

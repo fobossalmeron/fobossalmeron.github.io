@@ -7,9 +7,11 @@ categories: portafolio
 description: Diseño de Colección
 ---
 
-## _Proyecto_: Diseño de Colección
+## _Proyecto_: Diseño de colección editorial
 
-Historia Política es una colección de libros sobre historia política; Instituto Mora. 
+Historia Política es una colección de libros inscritos en el proyecto *"Hacia una Historia de las Prácticas Electorales en México, Siglo XIX"* del Instituto Mora donde se exploran nuevos acercamientos a la historia electoral.
+
+Este proyecto se encuentra en curso, incluye el diseño de la colección y de las portadas individuales para cada tomo. 
 
 ![proyecto-01][proyecto-01]
 ![proyecto-02][proyecto-02]
