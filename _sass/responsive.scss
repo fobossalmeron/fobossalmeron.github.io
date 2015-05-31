@@ -3,6 +3,12 @@
  **/
 @media (max-width:980px) {
 
+  #loadereye{
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto !important;
+  }
+
   #logo {
   display:none;
   }

@@ -547,15 +547,15 @@ textarea{
   background-size: contain;
   width: 100px;
   height: 62px;
-  margin: 0 auto;
-  margin-top: 150px;
+  margin: 200px auto 0 auto;
   position: relative; }
 
 #loadergif {
   background-image: url(/images/ajaxloader.gif);
   width: 33px;
   height: 33px;
-  margin: 0 auto; 
+  margin: 60px 33px 0 33px;
+  float: left;
 }
 
 /*****************************************************************************/
