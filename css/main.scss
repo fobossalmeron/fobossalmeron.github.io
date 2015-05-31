@@ -235,6 +235,7 @@ nav {
         clear:both;
         color: $black;
         transition: ease .2s;
+        padding: 6px 0 5px 0;
       }
 
       li {
@@ -242,7 +243,6 @@ nav {
         font-size: 1.1em;
         line-height: 1;
         list-style-type: none;
-        padding: 6px 0 5px 0;
         border-bottom: 2px solid $black;
         transition: ease .3s;
         position: relative;
@@ -256,6 +256,7 @@ nav {
 		      }
 
 		      &:nth-child(3) {
+            padding: 6px 0 5px 0;
 
 				      &:hover {
 				        background-color: $white;
@@ -280,7 +281,7 @@ nav {
             a {
              font-size: 1.1em;
              line-height: 1.8;
-             padding-bottom: 0px;
+             padding: 0px;
             }
 
 		     		&:nth-child(3){
