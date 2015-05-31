@@ -431,7 +431,13 @@ textarea{
   margin-bottom: 12.25em;
   margin-left: 0px;
 
-
+    a{
+      height: 100%;
+      width: 100%;
+      display: block;
+      border: none !important;
+    }
+    
     li{
       width: 100px;
       height: 100px;
