@@ -5,5 +5,11 @@ cover: acercademi.png
 date:   2015-05-20 12:00:00
 permalink: /acercademi/
 ---
+Soy un __diseñador gráfico__ y __desarrollador web__ de la Ciudad de México apasionado por crear productos móviles y en línea.
 
-Soy un __diseñador gráfico__ y __desarrollador web__ que reside en la Ciudad de México. Nací en el DF pero me crié en Michoacán, actualmente estudio en la Universidad Iberoamericana y me dedico al desarrollo de *front-end*. Todo el trabajo contenido en el portafolio de esta página es freelance.
+Me dedico al desarrollo de *front end* y al diseño de interfaces de usuario *(UI)*. Es mi trabajo ayudarte a visualizar tu marca y producto en todas las plataformas. Ya sea en escritorio, tablet o móvil, el resultado debe verse impecable y ser sencillo de navegar para tus usuarios. También me llama diseñar branding para marcas emergentes y hacer diseño gráfico en todas sus direcciones.
+
+Si quieres que trabajemos juntos, [__contáctame!__][contacto]
+
+[contacto]: /contacto/
+

@@ -206,7 +206,7 @@ h1.title{
   vertical-align: top;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -471,7 +471,6 @@ textarea{
 }
 
 .email {
-  clear: left;
   background-position: 10px 10px;
       &:hover{
         background-color: $mail;
@@ -480,10 +479,8 @@ textarea{
 
 .facebook {
   background-position: -70px 10px;
-  opacity: 0.9;
       &:hover{
         background-color: $facebook;
-        opacity: 1;
       }
 }
 
@@ -496,10 +493,8 @@ textarea{
 
 .tumblr {
   background-position: -155px 10px;
-  opacity: 0.9;
       &:hover{
         background-color: $tumblr;
-        opacity: 1;
       }
 }
 
