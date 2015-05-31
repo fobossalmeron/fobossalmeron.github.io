@@ -612,8 +612,7 @@ figcaption {
 	padding: 20px;
 	background: $black;
 	color: white;
-	height: 22%;
-	min-height: 110px;
+	height: auto;
 	opacity: 0;
 	-webkit-transform: translateY(100%);
 	-moz-transform: translateY(100%);
