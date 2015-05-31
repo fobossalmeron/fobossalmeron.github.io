@@ -51,6 +51,11 @@ img{
   max-width: 100%;
 }
 
+ul{
+  font-size: 1.2em;
+  list-style-type: none;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -220,6 +225,10 @@ nav {
   margin-top: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
+
+      ul {
+        font-size: 1em;
+      }
 
   		a {
         display: block;
