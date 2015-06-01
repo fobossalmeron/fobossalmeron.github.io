@@ -49,3 +49,15 @@ domAnimator.addFrame(frame1);
 domAnimator.addFrame(frame2);
 domAnimator.animate();
 
+//Scroll on mobile
+
+function checkPosition() {
+    if (window.matchMedia('(max-width: 980px)').matches) {
+          $("html, body").animate({ scrollTop: 270 }, "6500");
+          console.log(980);
+      }
+    if (window.matchMedia('(max-width: 470px)').matches) {
+          $("html, body").animate({ scrollTop: 421 }, "2500");
+          console.log(470);
+      }
+};

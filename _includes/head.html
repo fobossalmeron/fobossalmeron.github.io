@@ -39,5 +39,13 @@
   $(window).bind("load", function() {  
     $('#loaderindex').fadeOut(1200);
   });
+
+  {% if page.title != 'Inicio' %}
+    $(window).load(function() {
+    setTimeout(function() {
+      checkPosition();
+     },600);
+   });
+  {% endif %}
   </script>
 </head>
