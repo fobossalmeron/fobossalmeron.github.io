@@ -5,7 +5,7 @@
 
 @import 'variables';
 @import 'responsive';
-@import 'syntax';
+@import 'syntax-highlighting';
 
 /*****************************************************************************/
 /*
@@ -173,30 +173,28 @@ h1.title{
 }
 
 /* code */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+pre,
+code {
+  font-size: 15px;
+  border: 2px solid $black;
+  border-radius: 3px;
+  background-color: $white;
+  margin-bottom: 35px;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+code {
+    padding: 1px 5px;
 }
 
-.post pre code {
-  border: none;
-}
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
 
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 /*****************************************************************************/
