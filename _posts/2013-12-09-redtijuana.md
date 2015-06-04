@@ -20,6 +20,7 @@ El proyecto consitió en diseñar el branding general del proyecto y el de cada 
 ![proyecto-05][proyecto-05]
 ![proyecto-06][proyecto-06]
 ![proyecto-06][proyecto-07]
+
 ![proyecto-06][proyecto-08]
 
 [proyecto-01]: /images/red/red_01.jpg
