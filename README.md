@@ -10,4 +10,3 @@ Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 **Portafolio**
 - Jack: terminar renders y descripción del proyecto
 - Red: espacios entre imágenes
-- Historia: todo el folder
