@@ -3,12 +3,11 @@ Rodrigo Salmeron
 
 Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 
-##Correcciones que faltan:
+##Correcciones faltantes:
 
 - Compresion general de imagenes
 
-_Portafolio_
-- Jack: render del booklet (mejorar)
-  descripción
+**Portafolio**
+- Jack: terminar renders y descripción del proyecto
 - Red: espacios entre imágenes
 - Historia: todo el folder
