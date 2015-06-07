@@ -196,6 +196,9 @@ pre {
         padding-left: 0;
     }
 }
+#Path{
+  overflow: hidden;
+}
 
 /*****************************************************************************/
 /*
@@ -498,9 +501,9 @@ textarea{
 }
 .cajaOjo {
   width: 55px;
-  height: 30px;
+  height: 35px;
   position: absolute;
-  top: -65px;
+  top: -67px;
   left: 47px;
   overflow: hidden;
   z-index: -1;
@@ -524,21 +527,10 @@ textarea{
 
 #loadereye {
   background-image: url(/images/loader.svg);
-  background-size: contain;
-  width: 100px;
-  height: 62px;
+  width: 70px;
+  height: 90px;
   margin: 200px auto 0 auto;
   position: relative; }
-
-#loadersvg {
-  background-image: url(/images/loaderspin.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 23px;
-  height: 23px;
-  margin: 65px 39px 0 39px;
-  float: left;
-}
 
 /*****************************************************************************/
 /*

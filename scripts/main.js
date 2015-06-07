@@ -1,6 +1,6 @@
 //Eye
 
-var mouseX = 0, mouseY = 0, limitX = 35-15, limitY = 20-15;
+var mouseX = 0, mouseY = 0, limitX = 38-15, limitY = 23-15;
 $(window).mousemove(function(e){
   var offset = $('.cajaOjo').offset();
    mouseX = Math.min(e.pageX - offset.left, limitX);
@@ -52,12 +52,18 @@ domAnimator.animate();
 //Scroll on mobile
 
 function checkPosition() {
-    if (window.matchMedia('(max-width: 980px)').matches) {
-          $("html, body").animate({ scrollTop: 270 }, "6500");
-          console.log(980);
-      }
     if (window.matchMedia('(max-width: 470px)').matches) {
+       if($(window).scrollTop() < 421){
           $("html, body").animate({ scrollTop: 421 }, "2500");
-          console.log(470);
-      }
+          //var scrolled = 421 - $(window).scrollTop() ;
+          //console.log("Me deslizé " + scrolled + "px para que me vieras mejor." );
+          }
+    }
+        else if (window.matchMedia('(max-width: 980px)').matches) {
+       if($(window).scrollTop() < 270){
+          $("html, body").animate({ scrollTop: 270 }, "6500");
+          //var scrolled = 270 - $(window).scrollTop() ;
+          //console.log("Me deslizé " + scrolled + "px para que me vieras mejor." );
+          }
+    }
 };

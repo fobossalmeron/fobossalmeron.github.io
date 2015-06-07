@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de mi
-cover: acercademi.png
+cover: acercademi_portada.jpg
 date:   2015-05-20 12:00:00
 permalink: /acercademi/
 ---
