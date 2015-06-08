@@ -31,7 +31,7 @@ Este proyecto fue realizado en 2011 y consistió en el branding general de la ba
 
 [cowardbandcamp]: https://cowardcommittee.bandcamp.com/
 
-[proyecto-01]: /images/jack/jack_01.jpg
+[proyecto-01]: /images/jack/jack_01final.svg
 [proyecto-02]: /images/jack/jack_02.jpg
 [proyecto-03]: /images/jack/jack_03.jpg
 [proyecto-04]: /images/jack/jack_04.jpg

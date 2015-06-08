@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Festival Kinoki
-cover: kinoki/kinoki_portada.jpg
+cover: kinoki/kinoki_portadafinal.svg
 date:   2015-05-20 12:00:00
 categories: portafolio
 description: Branding y desarrollo de front end
@@ -31,11 +31,11 @@ El proyecto consistió en el diseño del branding para la onceava edición de es
 
 [festivalkinoki.com]: http://festivalkinoki.com
 
-[proyecto-01]: /images/kinoki/kinoki_01.jpg
-[proyecto-02]: /images/kinoki/kinoki_02.jpg
-[proyecto-03]: /images/kinoki/kinoki_03.jpg
-[proyecto-04]: /images/kinoki/kinoki_04.jpg
-[proyecto-05]: /images/kinoki/kinoki_05.jpg
-[proyecto-06]: /images/kinoki/kinoki_06.jpg
-[proyecto-07]: /images/kinoki/kinoki_07.jpg
-[proyecto-08]: /images/kinoki/kinoki_08.jpg
+[proyecto-01]: /images/kinoki/kinoki_01final.svg
+[proyecto-02]: /images/kinoki/kinoki_02final.svg
+[proyecto-03]: /images/kinoki/kinoki_03final.svg
+[proyecto-04]: /images/kinoki/kinoki_04final.svg
+[proyecto-05]: /images/kinoki/kinoki_05final.svg
+[proyecto-06]: /images/kinoki/kinoki_06final.svg
+[proyecto-07]: /images/kinoki/kinoki_07final.svg
+[proyecto-08]: /images/kinoki/kinoki_08final.svg

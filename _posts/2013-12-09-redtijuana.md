@@ -23,12 +23,12 @@ El proyecto consitió en diseñar el branding general del proyecto y el de cada 
   <object data="/images/red/red_rol.svg" type="image/svg+xml" id="icon"></object>
 ![proyecto-06][proyecto-08]
 
-[proyecto-01]: /images/red/red_01.jpg
-[proyecto-02]: /images/red/red_02.jpg
-[proyecto-03]: /images/red/red_03.jpg
-[proyecto-04]: /images/red/red_04.jpg
-[proyecto-05]: /images/red/red_05.jpg
-[proyecto-06]: /images/red/red_06.jpg
-[proyecto-07]: /images/red/red_07.jpg
+[proyecto-01]: /images/red/red_01final.svg
+[proyecto-02]: /images/red/red_02final.svg
+[proyecto-03]: /images/red/red_03final.svg
+[proyecto-04]: /images/red/red_04final.svg
+[proyecto-05]: /images/red/red_05final.svg
+[proyecto-06]: /images/red/red_06final.svg
+[proyecto-07]: /images/red/red_07final.svg
 [proyecto-08]: /images/red/red_08.jpg
 
