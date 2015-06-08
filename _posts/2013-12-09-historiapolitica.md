@@ -14,12 +14,19 @@ Historia Política es una colección de libros inscritos en el proyecto *"Hacia 
 Este proyecto se encuentra en curso, incluye el diseño de la colección y de las portadas individuales para cada tomo. 
 
 ![proyecto-01][proyecto-01]
+
 ![proyecto-02][proyecto-02]
+
 ![proyecto-03][proyecto-03]
+
 ![proyecto-04][proyecto-04]
+
 ![proyecto-05][proyecto-05]
+
 ![proyecto-06][proyecto-06]
+
 ![proyecto-07][proyecto-07]
+
 ![proyecto-08][proyecto-08]
 
 [proyecto-01]: /images/historia/historia_01.jpg

@@ -3,6 +3,22 @@
  **/
 @media (max-width:980px) {
 
+  figure {
+
+  &:hover {
+    img{
+      -webkit-transform: translateY(0px)!important;
+      -moz-transform: translateY(0px)!important;
+      -ms-transform: translateY(0px)!important;
+      transform: translateY(0px)!important;
+      opacity:1 !important;
+    }
+    figcaption {
+      display:none;
+    }
+  }
+}
+
   #loadereye{
     top: 50%;
     transform: translateY(-50%);
