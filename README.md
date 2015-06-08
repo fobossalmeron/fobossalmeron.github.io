@@ -3,8 +3,6 @@ Rodrigo Salmeron
 
 Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 
-##Correcciones faltantes:
-
 **Compresion de imagenes**
 - general: 6 .jpg progressive
 - Merma: general
@@ -13,9 +11,7 @@ Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 - Jack: general + svg(2-2)
 - Historia: general
 
+##Correcciones faltantes:
 
 **Portafolio**
 - Jack: terminar renders y descripción del proyecto
-
-**Caching**
-- img, svg, js, css: tiempos 
