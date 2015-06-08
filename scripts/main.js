@@ -67,32 +67,3 @@ function checkPosition() {
           }
     }
 };
-
-//eso de los iconos
-var morpheus = new SVGMorpheus('#icon');
-
-function morpheusScroll(){
-    setTimeout(function() {
-      morpheus.to('red', {duration: 750, easing: 'circ-in', rotation: 'none'});
-     },2000);
-      setTimeout(function() {
-      morpheus.to('participa', {duration: 750, easing: 'circ-in', rotation: 'none'});
-     },4000);
-      setTimeout(function() {
-      morpheus.to('saludable', {duration: 750, easing: 'circ-in', rotation: 'none'});
-     },6000);
-      setTimeout(function() {
-      morpheus.to('creativa', {duration: 750, easing: 'circ-in', rotation: 'none'});
-     },8000);
-      setTimeout(function() {
-      morpheus.to('sustentable', {duration: 750, easing: 'circ-in', rotation: 'none'});
-     },10000);
-      setTimeout(function() {
-      morpheus.to('lee', {duration: 750, easing: 'circ-in', rotation: 'none'});
-     },12000);
-};
-
-morpheusScroll();
-window.setInterval(function(){
-morpheusScroll();
-}, 12000);

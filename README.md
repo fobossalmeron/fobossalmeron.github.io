@@ -16,3 +16,6 @@ Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 
 **Portafolio**
 - Jack: terminar renders y descripción del proyecto
+
+**Caching**
+- img, svg, js, css: tiempos 
