@@ -1,68 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1500px"
-	 height="800px" viewBox="0 0 1500 800" enable-background="new 0 0 1500 800" xml:space="preserve">
-<g id="Layer_1">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1500px" height="800px" viewBox="0 0 1500 800" enable-background="new 0 0 1500 800" xml:space="preserve">
+<g id="Layer_1_1_">
 </g>
 <g id="Layer_3">
 </g>
-<g id="Layer_2">
-	<g>
-		<g>
-			<rect x="89" y="75.4" fill="#ED2246" width="282.4" height="172.8"/>
-			<polygon fill="#BD1B38" points="261.3,248.1 89.1,248.1 89.1,207.5 327.1,75.4 			"/>
-		</g>
-		<text transform="matrix(1 0 0 1 458.5234 170.623)" font-family="'SourceSansPro-ExtraLight'" font-size="31.8055">Dirección General</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 1155.4814 170.624)" font-family="'SourceSansPro-ExtraLight'" font-size="31.8055">Invitados</text>
-		<g>
-			<rect x="786" y="75.4" fill="#1DB0DD" width="282.4" height="172.8"/>
-			<polygon fill="#158BB5" points="958.2,248.1 786.1,248.1 786.1,207.5 1024,75.4 			"/>
-		</g>
-	</g>
-	<g>
-		<g>
-			<rect x="89" y="319.3" fill="#FECD2F" width="282.4" height="172.8"/>
-			<polygon fill="#DDB305" points="261.3,492 89.1,492 89.1,451.4 327.1,319.3 			"/>
-		</g>
-		<text transform="matrix(1 0 0 1 458.5234 414.5093)" font-family="'SourceSansPro-ExtraLight'" font-size="31.8055">Producción</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 1155.4814 414.5098)" font-family="'SourceSansPro-ExtraLight'" font-size="31.8055">Relaciones Públicas</text>
-		<g>
-			<rect x="786" y="319.3" fill="#684B9B" width="282.4" height="172.8"/>
-			<polygon fill="#513D6F" points="958.2,492 786.1,492 786.1,451.4 1024,319.3 			"/>
-		</g>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 458.5234 658.3965)" font-family="'SourceSansPro-ExtraLight'" font-size="31.8055">Prensa y Difusión</text>
-		<g>
-			<rect x="89" y="563.2" fill="#F47E24" width="282.4" height="172.8"/>
-			<polygon fill="#D46F2C" points="261.3,735.9 89.1,735.9 89.1,695.3 327.1,563.2 			"/>
-		</g>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 1155.4814 658.396)" font-family="'SourceSansPro-ExtraLight'" font-size="31.8055">Programación</text>
-		<g>
-			<rect x="786" y="563.2" fill="#19AC7D" width="282.4" height="172.8"/>
-			<polygon fill="#148470" points="958.2,735.9 786.1,735.9 786.1,695.3 1024,563.2 			"/>
-		</g>
-	</g>
-	<g>
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_29_" x="1137.9" y="5011.8" width="341.5" height="606.7"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_29_"  overflow="visible"/>
-				</clipPath>
-				<g clip-path="url(#SVGID_2_)">
-				</g>
-			</g>
-		</g>
-	</g>
+<g>
+	<rect x="89" y="75.4" fill="#ED2246" width="282.4" height="172.8"/>
+	<polygon fill="#BD1B38" points="261.3,248.1 89.1,248.1 89.1,207.5 327.1,75.4 	"/>
+</g>
+<text transform="matrix(1 0 0 1 458.5234 170.623)" font-family="'SourceSansPro-Light'" font-size="31.8055">Dirección General</text>
+<text transform="matrix(1 0 0 1 1155.4814 170.624)" font-family="'SourceSansPro-Light'" font-size="31.8055">Invitados</text>
+<g>
+	<rect x="786" y="75.4" fill="#1DB0DD" width="282.4" height="172.8"/>
+	<polygon fill="#158BB5" points="958.2,248.1 786.1,248.1 786.1,207.5 1024,75.4 	"/>
+</g>
+<g>
+	<rect x="89" y="319.3" fill="#FECD2F" width="282.4" height="172.8"/>
+	<polygon fill="#DDB305" points="261.3,492 89.1,492 89.1,451.4 327.1,319.3 	"/>
+</g>
+<text transform="matrix(1 0 0 1 458.5234 414.5098)" font-family="'SourceSansPro-Light'" font-size="31.8055">Producción</text>
+<text transform="matrix(1 0 0 1 1155.4814 414.5098)" font-family="'SourceSansPro-Light'" font-size="31.8055">Relaciones Públicas</text>
+<g>
+	<rect x="786" y="319.3" fill="#684B9B" width="282.4" height="172.8"/>
+	<polygon fill="#513D6F" points="958.2,492 786.1,492 786.1,451.4 1024,319.3 	"/>
+</g>
+<text transform="matrix(1 0 0 1 458.5234 658.3965)" font-family="'SourceSansPro-Light'" font-size="31.8055">Prensa y Difusión</text>
+<g>
+	<rect x="89" y="563.2" fill="#F47E24" width="282.4" height="172.8"/>
+	<polygon fill="#D46F2C" points="261.3,735.9 89.1,735.9 89.1,695.3 327.1,563.2 	"/>
+</g>
+<text transform="matrix(1 0 0 1 1155.4814 658.3965)" font-family="'SourceSansPro-Light'" font-size="31.8055">Programación</text>
+<g>
+	<rect x="786" y="563.2" fill="#19AC7D" width="282.4" height="172.8"/>
+	<polygon fill="#148470" points="958.2,735.9 786.1,735.9 786.1,695.3 1024,563.2 	"/>
 </g>
 </svg>

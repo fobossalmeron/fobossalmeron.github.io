@@ -4,40 +4,40 @@
 		"selected_items":
 		[
 			[
-				"border",
-				"border: "
-			],
-			[
-				"font",
-				"font-size: "
-			],
-			[
-				"mar",
-				"margin-bottom: "
-			],
-			[
-				"text",
-				"text-transform: "
-			],
-			[
-				"padding",
-				"padding-bottom: "
-			],
-			[
-				"padi",
-				"padding-bottom: "
+				"morpheus",
+				"morpheusScroll"
 			],
 			[
 				"background",
-				"background-color: "
+				"background-image: "
+			],
+			[
+				"font",
+				"font-weight: "
 			],
 			[
 				"margin",
 				"margin-top: "
 			],
 			[
+				"padding",
+				"padding-bottom: "
+			],
+			[
+				"pa",
+				"padding-left: "
+			],
+			[
+				"trans",
+				"transition: "
+			],
+			[
 				"bor",
 				"border-right: "
+			],
+			[
+				"border",
+				"border-bottom: "
 			],
 			[
 				"transform",
@@ -54,6 +54,10 @@
 			[
 				"tex",
 				"text-align"
+			],
+			[
+				"text",
+				"text-indent"
 			]
 		]
 	},
@@ -61,9 +65,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -71,7 +80,12 @@
 	},
 	"console":
 	{
-		"height": 126.0
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
 	},
 	"distraction_free":
 	{
@@ -82,43 +96,62 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_layouts",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts"
+	],
 	"file_history":
 	[
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-historiapolitica.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/README.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/head.html",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/main.js",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-redtijuana.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/gracias.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/.htaccess",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-festivalkinoki.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-jackandthecowardcommittee.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/_responsive.scss",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/images/red/red_rol.svg",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css/main.scss",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/sociales.html",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-redtijuana.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/main.js",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/_responsive.scss",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/acercademi.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/README.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-jackandthecowardcommittee.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/images/loader.svg",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/post.html",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_layouts/default.html",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-mermanegra.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/_variables.scss",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/_syntax-highlighting.scss",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/responsive.js",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/eyeFollow.js",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/index.html",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/responsive.scss",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-festivalkinoki.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/logo.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/404.md",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/formacontacto.html",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/contacto.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/images/logoprueba.svg",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/images/mapa.svg",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/images/404.svg",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/sociales.html",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_plugins/jekyll_asset_pipeline.rb",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_layouts/default.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_config.yml",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/loader.js",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/responsive.scss",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/eyeFollow.js",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/contacto.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/index.html",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/browserconfig.xml",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/manifest.json",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/manifest.webapp",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-mermanegra.md",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/rojekyll.sublime-project",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/formacontacto.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css/responsive.css",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css/_variables.scss",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/acercademi.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_layouts/page.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/page.html",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/gracias.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_layouts/post.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_pages/contact.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/about.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/contact.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/jseyes.js",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/responsive.js",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/acercademi/index.html",
 		"/Users/Salmeron/.bashrc",
 		"/Users/Salmeron/.bash_profile",
@@ -126,7 +159,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -140,15 +173,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			".send",
-			"title",
-			"sidebar",
-			"95%",
-			"#cover",
-			"title",
-			"home",
+			"{\n",
+			"loader",
 			".post",
-			".proyectos",
+			"overflow",
+			"justif",
+			"red",
+			"merma",
+			"input",
+			"title",
+			"posts",
+			".about",
 			"open",
 			"kinoki",
 			"merma",
@@ -217,6 +252,8 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
+	"project": "rojekyll.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -225,6 +262,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -233,15 +271,32 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 222.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
