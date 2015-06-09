@@ -33,9 +33,9 @@ El proyecto consistió en el diseño del branding para la onceava edición de es
 
 [proyecto-01]: /images/kinoki/kinoki_01final.svg
 [proyecto-02]: /images/kinoki/kinoki_02final.svg
-[proyecto-03]: /images/kinoki/kinoki_03final.svg
+[proyecto-03]: /images/kinoki/kinoki_03final.jpg
 [proyecto-04]: /images/kinoki/kinoki_04final.svg
-[proyecto-05]: /images/kinoki/kinoki_05final.svg
-[proyecto-06]: /images/kinoki/kinoki_06final.svg
-[proyecto-07]: /images/kinoki/kinoki_07final.svg
-[proyecto-08]: /images/kinoki/kinoki_08final.svg
+[proyecto-05]: /images/kinoki/kinoki_05final.jpg
+[proyecto-06]: /images/kinoki/kinoki_06final.jpg
+[proyecto-07]: /images/kinoki/kinoki_07final.jpg
+[proyecto-08]: /images/kinoki/kinoki_08final.jpg
