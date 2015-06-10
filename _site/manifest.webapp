@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "short_name": "RodrigoSalmeron",
+  "name": "Rodrigo Salmeron",
+  "launch_path": "/",
+  "description": "Rodrigo Salmeron es un diseñador gráfico y desarrollador web.",
+  "icons": {
+    "128": "/images/favicons/ms-icon-144x144.png"
+  },
+  "developer": {
+    "name": "Rodrigo Salmeron",
+    "url": "http://rodrigosalmeron.mx"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Rodrigo Salmeron",
+      "description": "Rodrigo Salmeron es un diseñador gráfico y desarrollador web."
+    }
+  }
+  "display":"standalone"
+}
