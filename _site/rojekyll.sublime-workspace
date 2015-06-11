@@ -84,6 +84,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Salmeron/Downloads/sass-logo/Sass Logo (Color).eps",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css/main.scss",
+		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/formacontacto.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/404.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/.htaccess",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_layouts/default.html",
@@ -97,7 +100,6 @@
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/gracias.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-jackandthecowardcommittee.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/_responsive.scss",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css/main.scss",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/sociales.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/post.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_posts/2013-12-09-mermanegra.md",
@@ -107,7 +109,6 @@
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/scripts/eyeFollow.js",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/index.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_sass/responsive.scss",
-		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_includes/formacontacto.html",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/contacto.md",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/_config.yml",
 		"/Users/Salmeron/Google Drive/GooServers/fobossalmeron.github.io/css/responsive.css",
@@ -141,6 +142,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
 			".send",
 			"title",
 			"sidebar",

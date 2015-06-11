@@ -9,7 +9,7 @@ description: Branding y arte para EP
 
 ## _Proyecto:_ Branding y arte para EP
 
-Jack & The Coward Committee es una banda mexicana caracterizada por estar conformada por cobardes. Puede consultarse su material en [cowardcommittee.bandcamp.com][cowardbandcamp].
+Jack & The Coward Committee es una banda de la nueva ola de *rock&roll* y psicodelia mexicana; se rige bajo la idea de aceptarse cobarde como un acto de valentía. Puede consultarse su material en [cowardcommittee.bandcamp.com][cowardbandcamp].
 
 Este proyecto fue realizado en 2011 y consistió en el branding general de la banda y el diseño/arte de su EP *Songs From The Cave*, esto último incluye el booklet para CD y las portadas individuales para cada single; se colaboró con fotógrafos morelianos. 
 
