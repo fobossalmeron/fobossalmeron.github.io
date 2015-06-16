@@ -492,10 +492,9 @@ textarea{
 
 #cursorOjo{
   position: relative;
-  width: 35px;
-  height: 35px;
-  border-radius: 50px;
-  background-image: url("/images/eye.svg");
+  width: 42px;
+  height: 42px;
+  background-image: url("/images/iris.svg");
   background-size: contain;
 }
 
@@ -505,11 +504,11 @@ textarea{
     position:relative;
 }
 .cajaOjo {
-  width: 55px;
-  height: 35px;
+  width: 150px;
+  height: 60px;
+  top: -170px;
+  left: 0px;
   position: absolute;
-  top: -67px;
-  left: 47px;
   overflow: hidden;
   z-index: -1;
 }

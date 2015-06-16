@@ -1,6 +1,6 @@
 //Eye
 
-var mouseX = 0, mouseY = 0, limitX = 38-15, limitY = 23-15;
+var mouseX = 55, mouseY = 10, limitX = 100, limitY = 25;
 $(window).mousemove(function(e){
   var offset = $('.cajaOjo').offset();
    mouseX = Math.min(e.pageX - offset.left, limitX);
@@ -11,11 +11,11 @@ $(window).mousemove(function(e){
 
 // cache the selector
 var follower = $("#cursorOjo");
-var xp = 0, yp = 0;
+var xp = 55, yp = 10;
 var loop = setInterval(function(){
     // change 12 to alter damping higher is slower
-    xp += (mouseX - xp) / 12;
-    yp += (mouseY - yp) / 12;
+    xp += (mouseX - xp) / 16;
+    yp += (mouseY - yp) / 16;
     follower.css({left:xp, top:yp});
     
 }, 30);
