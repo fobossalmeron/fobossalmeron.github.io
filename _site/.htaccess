@@ -1,3 +1,9 @@
+RewriteCond %{HTTP_HOST} !^rodrigosalmeron.mx$ [NC]
+RewriteCond %{HTTP_HOST} !^mail.rodrigosalmeron.mx$ [NC]
+RewriteRule ^(.*)$ http://rodrigosalmeron.mx/$1 [L,R=301]
+
+RedirectMatch 301 ^/portafolio/?$ /
+
 ErrorDocument 404 /404/
 
 # 3 WEEKS
