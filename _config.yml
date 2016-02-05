@@ -3,7 +3,7 @@ description: Rodrigo Salmerón es un desarrollador web y diseñador gráfico.
 
 name: Rodrigo Salmeron
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:categories/:title/ 
 
 social:
