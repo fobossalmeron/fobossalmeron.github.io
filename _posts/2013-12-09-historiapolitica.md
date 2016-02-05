@@ -29,6 +29,14 @@ Este proyecto se encuentra en curso, incluye el diseño de la colección y de la
 
 ![proyecto-08][proyecto-08]
 
+![proyecto-09][proyecto-09]
+
+![proyecto-10][proyecto-10]
+
+![proyecto-11][proyecto-11]
+
+![proyecto-12][proyecto-12]
+
 [proyecto-01]: /images/historia/historia_01.jpg
 [proyecto-02]: /images/historia/historia_02.jpg
 [proyecto-03]: /images/historia/historia_03.jpg
@@ -37,4 +45,7 @@ Este proyecto se encuentra en curso, incluye el diseño de la colección y de la
 [proyecto-06]: /images/historia/historia_06.jpg
 [proyecto-07]: /images/historia/historia_07.jpg
 [proyecto-08]: /images/historia/historia_08.jpg
-
+[proyecto-09]: /images/historia/historia_09.jpg
+[proyecto-10]: /images/historia/historia_10.jpg
+[proyecto-11]: /images/historia/historia_11.jpg
+[proyecto-12]: /images/historia/historia_12.jpg
