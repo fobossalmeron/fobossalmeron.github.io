@@ -1,17 +1,17 @@
---
+---
 layout: proyect
 title: Excapes
 description: Branding, sitio web y aplicaciones
 cover: excapescover.svg
 images:
-  - kinoki_01final.svg
-  - kinoki_02final.svg
-  - kinoki_03final.svg
-  - kinoki_04final.svg
-  - kinoki_05final.svg
-  - kinoki_06final.svg
-  - kinoki_07final.svg
-  - kinoki_08final.svg
+  - excapes_01.svg
+  - excapes_02.svg
+  - excapes_03.svg
+  - excapes_04.svg
+  - excapes_05.svg
+  - excapes_06.svg
+  - excapes_07.svg
+  - excapes_08.svg
 order: 1
 ---
 

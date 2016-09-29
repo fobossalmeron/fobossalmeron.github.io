@@ -1,4 +1,4 @@
----
+--
 layout: proyect
 title: Festival Kinoki
 description: Branding y desarrollo de sitio web

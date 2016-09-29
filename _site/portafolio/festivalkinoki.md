@@ -1,18 +1,18 @@
 --
 layout: proyect
-title: Excapes
-description: Branding, sitio web y aplicaciones
-cover: excapescover.svg
+title: Festival Kinoki
+description: Branding y desarrollo de sitio web
+cover: kinoki_portadafinal.svg
 images:
   - kinoki_01final.svg
   - kinoki_02final.svg
-  - kinoki_03final.svg
+  - kinoki_03final.jpg
   - kinoki_04final.svg
-  - kinoki_05final.svg
-  - kinoki_06final.svg
-  - kinoki_07final.svg
-  - kinoki_08final.svg
-order: 1
+  - kinoki_05final.jpg
+  - kinoki_06final.jpg
+  - kinoki_07final.jpg
+  - kinoki_08final.jpg
+order: 3
 ---
 
 El Festival Internacional de Cine Universitario Kinoki es un festival de cortometrajes que se organiza anualmente por alumnos de la Universidad Iberoamericana.

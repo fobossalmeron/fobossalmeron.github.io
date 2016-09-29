@@ -1,8 +1,7 @@
 ---
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,600,400);
-
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import 'variables';
 @import 'responsive';
 @import 'syntax-highlighting';
@@ -27,7 +26,7 @@ html, body {
 body {
   color: $black;
   background-color: $white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-weight: 300;
   font-size: 0.75em;
 }
@@ -136,7 +135,6 @@ h1.title{
 #title {
   font-size: 2em;
   line-height: 5px;
-  text-transform: uppercase;
   margin-bottom: 1em;
 }
 
@@ -221,8 +219,9 @@ object{
 
 .sidebar {
   float: left;
-  width: 205px;
-  padding:0 3em;
+  width: 280px;
+  padding: 0 4em;
+  box-sizing: border-box;
 }
 
 nav {
@@ -249,9 +248,10 @@ nav {
         font-size: 1.1em;
         line-height: 1;
         list-style-type: none;
-        border-bottom: 2px solid $black;
+        // border-bottom: 2px solid $black;
         transition: ease .3s;
         position: relative;
+        box-shadow: 0px 3px 9px -7px $black;
 
 		      &:hover {
 		        background-color: $black;
@@ -268,10 +268,11 @@ nav {
 				        background-color: $white;
 				        color: $black;
 				      }
-		      }        
+		      }
       }
 
       ul:nth-child(2) {
+          box-shadow: -2px 2px 9px -7px #272727 inset;
 
           li{
             font-style: italic;
@@ -279,10 +280,11 @@ nav {
             margin-bottom: 0;
             padding-bottom: 0;
             text-transform: capitalize;
-            padding: 2px 8px;
+            padding: 2px 12px;
             text-align: right;
             border-bottom: none;
             position: relative;
+            box-shadow: 0px 0px 0px 0px $black;
 
             a {
              font-size: 1.1em;
@@ -357,7 +359,7 @@ nav {
   padding: 15px;
   border-radius: 2px;
   position: relative;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.2em;
   border: 1px solid $black;
   cursor: pointer;
@@ -433,7 +435,7 @@ textarea{
 
 .social-links{
   list-style-type: none;
-  margin-bottom: 12.25em;
+  margin-bottom: 10.5em;
   margin-left: 0px;
 
     a{
@@ -444,43 +446,35 @@ textarea{
     }
 
     li{
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       margin: 0;
       float: left;
       background-color: $black;
       transition: ease 0.4s;
       background-image: url(/images/social.svg);
       background-repeat: no-repeat;
-      background-size: 330px;
+      background-size: 280px;
       }
 }
 
 .email {
-  background-position: 10px 10px;
+  background-position: 6px 7px;
       &:hover{
         background-color: $mail;
       }
 }
 
 .facebook {
-  background-position: -70px 10px;
+  background-position: -58px 7px;
       &:hover{
         background-color: $facebook;
       }
 }
-
-.twitter {
-  background-position: -237px 10px;
+.instagram {
+  background-position: -135px 7px;
       &:hover{
-        background-color: $twitter;
-      }
-}
-
-.tumblr {
-  background-position: -155px 10px;
-      &:hover{
-        background-color: $tumblr;
+        background-color: $instagram;
       }
 }
 
@@ -506,7 +500,7 @@ textarea{
 .cajaOjo {
   width: 150px;
   height: 60px;
-  top: -170px;
+  top: -156px;
   left: 0px;
   position: absolute;
   overflow: hidden;

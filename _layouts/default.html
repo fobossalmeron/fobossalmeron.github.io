@@ -23,31 +23,8 @@
           </div>
         </div>
 
-        <nav>
-          <ul>
-              <li {% if page.title == 'Acerca de mi' %} class= "active" {% endif %}>
-                 <a href="/acercademi/">Acerca de mi</a>
-              </li>
-              <li{% if page.title == 'Contacto' %} class= "active" {% endif %}>
-                 <a href="/contacto/">Contacto</a>
-              </li>
-              <li>
-                 Portafolio
-              </li>
-            </ul>
-            <ul>
-              {% assign proyectosorden = site.portafolio | sort:"order" %}
-                {% for proyecto in proyectosorden %}
-                  <li{% if page.title == proyecto.title %}
-                   class= "active"
-                  {% endif %}>
-                    <a href="{{ proyecto.url }}">
-                      {{ proyecto.title }}
-                    </a>
-                  </li>
-                {% endfor %}
-            </ul>
-        </nav>
+{% include nav.html %}
+
       </div>
 
         {{ content }}
