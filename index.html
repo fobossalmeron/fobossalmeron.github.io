@@ -4,13 +4,14 @@ title: Inicio
 ---
 
 <div class="content">
-{% for post in site.posts %}
+{% assign proyectosorden = site.portafolio | sort:"order" %}
+	{% for proyecto in proyectosorden %}
 	<figure>
-      <a href="{{ post.url }}"><img src="/images/{{ post.cover }}" alt="Rodrigo Salmeron | {{ post.title }}"></a>
+      <a href="{{ proyecto.url }}"><img src="/images{{ proyecto.url }}{{ proyecto.cover }}" alt="Rodrigo Salmeron | {{ proyecto.title }}"></a>
     <figcaption>
-	    <h2>{{ post.title }}</h2>
-		<p><em>Proyecto:</em> {{ post.description }}</p>
-		<a href="{{ post.url }}">Ver Proyecto</a>
+	    <h2>{{ proyecto.title }}</h2>
+		<p><em>proyecto:</em> {{ proyecto.description }}</p>
+		<a href="{{ proyecto.url }}">Ver proyecto</a>
     </figcaption>
     </figure>
 {% endfor %}

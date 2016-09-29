@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Correo enviado
-date:   2015-05-20 12:00:00
-permalink: gracias/
+title: Correo enviado!
 ---
 
 Tu mensaje ha sido enviado, te contactaré a la brevedad.

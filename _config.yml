@@ -1,16 +1,15 @@
 title: Rodrigo Salmeron
-description: Rodrigo Salmerón es un desarrollador web y diseñador gráfico. 
+description: Rodrigo Salmerón es un desarrollador web y diseñador gráfico.
 
 name: Rodrigo Salmeron
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title/ 
+permalink: /:collection/:title/
 
-social:
-   github: fobossalmeron
-   twitter: fobossalmeorn
-   facebook: fobossalmeron
-   email: fobossalmeron@gmail.com
+collections:
+  portafolio:
+    output: true
+    permalink: /portafolio/:path/
 
 google_analytics: "UA-58263416-1"
 sass:
