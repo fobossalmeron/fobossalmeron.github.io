@@ -4,14 +4,15 @@ title: Red Tijuana
 description: Branding
 cover: red_portada.jpg
 images:
- - red_01final.svg
- - red_02final.svg
- - red_03final.svg
- - red_04final.svg
- - red_05final.svg
- - red_06final.svg
- - red_07final.svg
- - red_08.jpg
+ - red_01.svg
+ - redtijuana_08.jpg
+ - red_02.svg
+ - red_03.svg
+ - red_04.svg
+ - red_05.svg
+ - red_06.svg
+ - red_07.svg
+ - redtijuana_09.jpg
 order: 4
 ---
 

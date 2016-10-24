@@ -1,6 +1,6 @@
 //Eye
 
-var mouseX = 55, mouseY = 10, limitX = 100, limitY = 25;
+var mouseX = 25, mouseY = 1, limitX = 53, limitY = 20;
 $(window).mousemove(function(e){
   var offset = $('.cajaOjo').offset();
    mouseX = Math.min(e.pageX - offset.left, limitX);
@@ -17,7 +17,7 @@ var loop = setInterval(function(){
     xp += (mouseX - xp) / 16;
     yp += (mouseY - yp) / 16;
     follower.css({left:xp, top:yp});
-    
+
 }, 30);
 
 
@@ -32,7 +32,7 @@ var domAnimator = new DomAnimator();
                           "   .o(`-S-´)o.                            ",
                           "   |( `-S-´ )|     Dentro de mi esqueleto ",
                           "   |(`--S--´)|                            ",
-                          "                                          "];      
+                          "                                          "];
 
 
 
@@ -43,7 +43,7 @@ var domAnimator = new DomAnimator();
                           "   .o(`-S-´)o.                            ",
                           "   |( `-S-´ )|     Dentro de mi esqueleto ",
                           "   |(`--S--´)|                            ",
-                          "                                          "];    
+                          "                                          "];
 
 domAnimator.addFrame(frame1);
 domAnimator.addFrame(frame2);

@@ -2,19 +2,19 @@
 layout: proyect
 title: Excapes
 description: Branding, sitio web y aplicaciones
-cover: excapescover.svg
+cover: excapes_portada.svg
 images:
-  - excapes_01.svg
+  - excapes_01.jpg
   - excapes_02.svg
-  - excapes_03.svg
-  - excapes_04.svg
-  - excapes_05.svg
-  - excapes_06.svg
-  - excapes_07.svg
-  - excapes_08.svg
+  - excapes_03.jpg
+  - excapes_04.jpg
+  - excapes_05.jpg
+  - excapes_06.jpg
+  - excapes_09.jpg
+  - excapes_10.jpg
 order: 1
 ---
 
-El Festival Internacional de Cine Universitario Kinoki es un festival de cortometrajes que se organiza anualmente por alumnos de la Universidad Iberoamericana.
+Excapes es una serie web y plataforma de viajeros creada por Kaptura Projects para impulsar a las nuevas generaciones a viajar y salir de la rutina.
 
-El proyecto consistió en el diseño del branding para la onceava edición de este festival; así como el de la interfaz de usuario y desarrollo de front end para su sitio web. Lamentablemente, este sitio ya no esta disponible en línea.
+El proyecto constió en el desarrollo del branding de la serie, su carpeta de proyecto, diseño de iconografía, aplicaciones, y el diseño y desarrollo de su sitio web. Este sitio esta disponible en [excapes.tv](https://excapes.tv/).

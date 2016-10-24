@@ -1,0 +1,70 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin border-radius-multiple($a, $b, $c, $d) {
+  -webkit-border-radius: $a $b $c $d;
+     -moz-border-radius: $a $b $c $d;
+      -ms-border-radius: $a $b $c $d;
+       -o-border-radius: $a $b $c $d;
+          border-radius: $a $b $c $d;
+}
+
+@mixin border-radius-multiple-important($a, $b, $c, $d) {
+  -webkit-border-radius: $a $b $c $d !important;
+     -moz-border-radius: $a $b $c $d !important;
+      -ms-border-radius: $a $b $c $d !important;
+       -o-border-radius: $a $b $c $d !important;
+          border-radius: $a $b $c $d !important;
+}
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+      -ms-box-shadow: $shadow;
+       -o-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	   -moz-transform: $transforms;
+	    -ms-transform: $transforms;
+	     -o-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin transformhamb($x, $y, $rotate){
+  -webkit-transform: translateX($x) translateY($y) rotate($rotate);
+     -moz-transform: translateX($x) translateY($y) rotate($rotate);
+       -o-transform: translateX($x) translateY($y) rotate($rotate);
+          transform: translateX($x) translateY($y) rotate($rotate);
+}
+
+@mixin transition($time, $mode) {
+	-webkit-transition: all $time 0s $mode;
+	   -moz-transition: all $time 0s $mode;
+	    -ms-transition: all $time 0s $mode;
+	     -o-transition: all $time 0s $mode;
+            transition: all $time 0s $mode;
+}
+
+@mixin transition_after($delay, $time, $mode) {
+  -webkit-transition: all $time $delay $mode;
+     -moz-transition: all $time $delay $mode;
+      -ms-transition: all $time $delay $mode;
+       -o-transition: all $time $delay $mode;
+            transition: all $time $delay $mode;
+}
+
+@mixin translateX ($x) {
+   @include transform(translateX($x));
+}
+
+@mixin translateY ($y) {
+   @include transform(translateY($y));
+}

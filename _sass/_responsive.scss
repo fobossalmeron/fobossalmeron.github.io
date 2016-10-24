@@ -54,13 +54,14 @@
     float: right;
     display: inline-block;
     padding-right: 3em;
+    margin-top: 0;
     }
 
   }
 
   .header{
   width: 200px;
-  float: left;    
+  float: left;
   padding-left: 3em;
   }
 
@@ -102,7 +103,7 @@
 
   }
 
-  .social-links{   
+  .social-links{
     width: 200px;
     margin: 0 auto 20.25em auto !important;
     float: none;
