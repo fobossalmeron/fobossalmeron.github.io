@@ -17,4 +17,4 @@ order: 1
 
 Excapes es una serie web y plataforma de viajeros creada por Kaptura Projects para impulsar a las nuevas generaciones a viajar y salir de la rutina.
 
-El proyecto constió en el desarrollo del branding de la serie, su carpeta de proyecto, diseño de iconografía, aplicaciones, y el diseño y desarrollo de su sitio web. Este sitio esta disponible en [excapes.tv](https://excapes.tv/).
+El proyecto constió en el desarrollo del branding de la serie, su carpeta de proyecto, diseño de iconografía, aplicaciones, y el diseño y desarrollo de su sitio web. Este sitio ya no está disponible en línea, pero puede visitarse en mi [GitHub (Excapes)](http://fobossalmeron.github.io/excapes/).
