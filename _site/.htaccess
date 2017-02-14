@@ -7,6 +7,10 @@ RewriteCond %{HTTP_HOST} !^github.rodrigosalmeron.mx$ [NC]
 RewriteCond %{HTTP_HOST} !^kinoki.rodrigosalmeron.mx$ [NC]
 RewriteRule ^(.*)$ http://rodrigosalmeron.mx/$1 [L,R=301]
 
+RewriteCond %{HTTP_HOST} ^github\.rodrigosalmeron\.mx$
+RewriteCond %{REQUEST_URI} !^/github/
+RewriteRule (.*) /github/$1 [L]
+
 RedirectMatch 301 ^/portafolio/?$ /
 
 ErrorDocument 404 /404/
