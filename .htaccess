@@ -1,7 +1,7 @@
 RewriteCond %{HTTP_HOST} !^rodrigosalmeron.mx$ [NC]
 RewriteCond %{HTTP_HOST} !^mail.rodrigosalmeron.mx$ [NC]
 RewriteCond %{HTTP_HOST} !^excapes.rodrigosalmeron.mx$ [NC]
-RewriteCond %{HTTP_HOST} !^castellanos.rodrigosalmeron.mx$ [NC]
+# RewriteCond %{HTTP_HOST} !^castellanos.rodrigosalmeron.mx$ [NC]
 RewriteCond %{HTTP_HOST} !^kaptura.rodrigosalmeron.mx$ [NC]
 RewriteCond %{HTTP_HOST} !^github.rodrigosalmeron.mx$ [NC]
 RewriteCond %{HTTP_HOST} !^kinoki.rodrigosalmeron.mx$ [NC]
