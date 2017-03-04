@@ -10,9 +10,6 @@
 <loc>/contacto/</loc>
 </url>
 <url>
-<loc>/github/</loc>
-</url>
-<url>
 <loc>/gracias/</loc>
 </url>
 <url>
@@ -20,6 +17,15 @@
 </url>
 <url>
 <loc>/sitemap/</loc>
+</url>
+<url>
+<loc>/vr/</loc>
+</url>
+<url>
+<loc>/vr1/</loc>
+</url>
+<url>
+<loc>/vr2/</loc>
 </url>
 <url>
 <loc>/portafolio/excapes/</loc>

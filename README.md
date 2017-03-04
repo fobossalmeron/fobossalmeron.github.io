@@ -12,6 +12,5 @@ Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 - Historia: general
 
 ##Correcciones faltantes:
-
-**Portafolio**
-- Jack: terminar renders y descripción del proyecto
+- Tamaño del canvas
+- play/pausa del video
