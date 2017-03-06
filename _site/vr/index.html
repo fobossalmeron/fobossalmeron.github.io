@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
   <meta name="author" content="Rodrigo Salmerón">
-  <title>Rodrigo Salmerón | VR2 A Frame Current</title>
+  <title>Rodrigo Salmerón | VR Experiments</title>
   <meta name="description" content="Rodrigo Salmerón es un desarrollador web y diseñador gráfico.">
   <meta property="og:url" content="http://rodrigosalmeron.mx/vr/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Rodrigo Salmerón | VR2 A Frame Current">
+  <meta property="og:title" content="Rodrigo Salmerón | VR Experiments">
   <meta property="og:description" content="Rodrigo Salmerón es un desarrollador web y diseñador gráfico.">
   <meta property="og:image" content="http://rodrigosalmeron.mx/images/ogimage.png"/>
 
@@ -39,19 +39,13 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <script src="/scripts/vendor.js" type="text/javascript"></script>
-  <script src="https://aframe.io/releases/0.5.0/aframe.js"></script>
+  
 
   <script>
   $(window).bind("load", function() {
     $('#loaderindex').fadeOut(1200);
   });
 
-  
-    $(window).load(function() {
-    setTimeout(function() {
-      checkPosition();
-     },600);
-   });
   
   </script>
 </head>
@@ -115,48 +109,8 @@
       </div>
 
         <div class="content" id="home">
-  <div id="post-info">
-  
-    <div id="info-container">
-      <h1 id="title">VR2 A Frame Current</h1>
-    </div>
-  </div>
+    <iframe id="exampleIframe" class="example__iframe" allowfullscreen="" scrolling="no" allowvr="yes" src="/vrno1/"></iframe>
 
-  <div class="post">
-    <script src="https://unpkg.com/aframe-mountain-component@0.3.3/dist/aframe-mountain-component.min.js"></script>
-
-<a-scene>
-  <a-assets>
-    <a-asset-item id="tree-obj" src="/assets/firstlogo.obj"></a-asset-item>
-    <a-asset-item id="tree-obj2" src="/assets/firstlogo.obj"></a-asset-item>
-    <video id="video" src="/assets/HowToLoose.mp4" autoplay="" loop=""></video>
-  </a-assets>
-
-    <a-entity camera="" look-controls="" wasd-controls="" position="0 0 8">
-       <a-entity cursor="" id="target" geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.016" material="color: yellow; shader: flat;" position="0 0 -1"></a-entity>
-    </a-entity>
-
-    <a-entity position="-.01 0 0" obj-model="obj: #tree-obj" look-at="#target" material="color: white; shader: flat;">
-      <a-animation attribute="position" to="0 0 0" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
-    <!--  <a-animation attribute="material.color" begin="mouseenter" dur="1" to="yellow"></a-animation>
-      <a-animation attribute="material.color" begin="mouseleave" dur="1" to="white"></a-animation>-->
-    </a-entity>
-
-    <a-entity position=".01 0 0" obj-model="obj: #tree-obj2" look-at="#target" material="color: black; shader: flat;">
-      <a-animation attribute="position" to="0 0 0" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
-    <!--  <a-animation attribute="material.color" begin="mouseenter" dur="1" to="blue"></a-animation>
-      <a-animation attribute="material.color" begin="mouseleave" dur="1" to="white"></a-animation>-->
-    </a-entity>
-
-  <a-light type="ambient" color="#444" intensity="0.1"></a-light>
-
-  <a-videosphere src="#video" rotation="0 0 0" radius="20"></a-videosphere>
-
-<!--  <a-sky color="black"></a-sky>-->
-
-</a-scene>
-
-  </div>
 </div>
 
 
