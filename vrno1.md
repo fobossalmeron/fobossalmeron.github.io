@@ -5,8 +5,8 @@ title: VR Experiment No.1
 
 <a-scene>
   <a-assets>
-    <a-asset-item id="tree-obj" src="/assets/firstlogo.obj"></a-asset-item>
-    <a-asset-item id="tree-obj2" src="/assets/firstlogo.obj"></a-asset-item>
+    <a-asset-item id="tree-obj" src="/assets/firstlogo.OBJ"></a-asset-item>
+    <a-asset-item id="tree-obj2" src="/assets/firstlogo.OBJ"></a-asset-item>
     <video id="video" src="/assets/HowToLoose.mp4" autoplay loop></video>
   </a-assets>
 
