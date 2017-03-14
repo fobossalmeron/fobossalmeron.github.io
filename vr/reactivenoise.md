@@ -5,9 +5,9 @@ title: VR Experiment No.1
 
 <a-scene>
   <a-assets>
-    <a-asset-item id="tree-obj" src="/assets/firstlogo.OBJ"></a-asset-item>
-    <a-asset-item id="tree-obj2" src="/assets/firstlogo.OBJ"></a-asset-item>
-    <video id="video" src="/assets/HowToLoose.mp4" loop></video> <!--add: autoplay -->
+    <a-asset-item id="tree-obj" src="/vr_assets/firstlogo.OBJ"></a-asset-item>
+    <a-asset-item id="tree-obj2" src="/vr_assets/firstlogo.OBJ"></a-asset-item>
+    <video id="video" src="/vr_assets/HowToLoose.mp4" autoplay loop></video>
   </a-assets>
 
     <a-entity camera look-controls wasd-controls position="0 0 8">
@@ -47,5 +47,4 @@ title: VR Experiment No.1
         vid.pause();
     }
   </script>
-  <button id="playvideo" onclick="playVid();">Click to<br>join the experience!</button>
 </a-scene>

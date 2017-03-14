@@ -11,6 +11,9 @@ collections:
   portafolio:
     output: true
     permalink: /portafolio/:path/
+  vrportafolio:
+    output: true
+    permalink: /vrplayground/:path/
 
 google_analytics: "UA-58263416-1"
 sass:

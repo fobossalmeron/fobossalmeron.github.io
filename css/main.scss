@@ -468,7 +468,7 @@ textarea{
 }
 
 .email {
-  background-position: 6px 7px;
+  background-position: 8px 7px;
       &:hover{
         background-color: $mail;
       }
@@ -484,6 +484,12 @@ textarea{
   background-position: -135px 7px;
       &:hover{
         background-color: $instagram;
+      }
+}
+.github {
+  background-position: -203px 7px;
+      &:hover{
+        background-color: $github;
       }
 }
 
@@ -753,8 +759,9 @@ iframe{
   background-color: yellow;
   border: none;
   color: black;
+  display:none;
 }
 
 .hidebutton{
-  display:none;
+  opacity:0 !important;
 }

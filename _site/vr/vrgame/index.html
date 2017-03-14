@@ -5,15 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
   <meta name="author" content="Rodrigo Salmerón">
-  <title>Rodrigo Salmerón | VR Experiment No.1</title>
+  <title>Rodrigo Salmerón | VR Game Experiment</title>
   <meta name="description" content="Rodrigo Salmerón es un desarrollador web y diseñador gráfico.">
-  <meta property="og:url" content="http://rodrigosalmeron.mx/vrno1mobile/">
+  <meta property="og:url" content="http://rodrigosalmeron.mx/vr/vrgame/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Rodrigo Salmerón | VR Experiment No.1">
+  <meta property="og:title" content="Rodrigo Salmerón | VR Game Experiment">
   <meta property="og:description" content="Rodrigo Salmerón es un desarrollador web y diseñador gráfico.">
   <meta property="og:image" content="http://rodrigosalmeron.mx/images/ogimage.png"/>
-
-
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
@@ -40,8 +38,8 @@
   <link rel="stylesheet" href="/css/main.css">
   <script src="/scripts/vendor.js" type="text/javascript"></script>
   
-  <script> console.log("se detectó el layout");</script>
-  <script src="/scripts/aframe.min.js" type="text/javascript"></script>
+  <script> console.log("load aframe");</script>
+  <script src="/scripts/vr_scripts/aframe.min.js" type="text/javascript"></script>
   
 
   <script>
@@ -54,49 +52,61 @@
 </head>
 
   <body>
-        <a-scene>
+        <script src="/scripts/vr_scripts/restrict-position.js"></script>
+
+<script src="https://rawgit.com/mayognaise/aframe-video-shader/master/dist/aframe-vid-shader.min.js"></script>
+
+<a-scene debug="">
   <a-assets>
-    <a-asset-item id="tree-obj" src="/assets/firstlogo.OBJ"></a-asset-item>
-    <a-asset-item id="tree-obj2" src="/assets/firstlogo.OBJ"></a-asset-item>
-    <video id="video" src="/assets/HowToLoose.mp4" loop=""></video> <!--add: autoplay -->
+    <a-asset-item id="tree-obj" src="/vr_assets/firstlogo.OBJ"></a-asset-item>
+    <a-asset-item id="tree-obj2" src="/vr_assets/firstlogo.OBJ"></a-asset-item>
+    <video id="video2" src="/vr_assets/videotext.mp4" autoplay="" loop=""></video>
+    <video id="video" src="/vr_assets/HowToLoose.mp4" autoplay="" loop=""></video>
   </a-assets>
 
-    <a-entity camera="" look-controls="" wasd-controls="" position="0 0 8">
+    <a-entity camera="" wasd-controls="" look-controls="" restrict-position="" position="0 1.6 0">
        <a-entity cursor="" id="target" geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.016" material="color: yellow; shader: flat;" position="0 0 -1"></a-entity>
     </a-entity>
+<!--
+    <a-entity position="3 3 -5" obj-model="obj: #tree-obj" material="color: white;">
+      <a-animation attribute="position" to="0 3 -5" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
+      <a-animation attribute="material.color" begin="mouseenter" dur="1" to="blue"></a-animation>
+      <a-animation attribute="material.color" begin="mouseleave" dur="1" to="white"></a-animation>
+    </a-entity>-->
 
-    <a-entity position="-.01 0 0" obj-model="obj: #tree-obj" look-at="#target" material="color: white; shader: flat;">
-      <a-animation attribute="position" to="0 0 0" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
-    <!--  <a-animation attribute="material.color" begin="mouseenter" dur="1" to="yellow"></a-animation>
-      <a-animation attribute="material.color" begin="mouseleave" dur="1" to="white"></a-animation>-->
-    </a-entity>
-
-    <a-entity position=".01 0 0" obj-model="obj: #tree-obj2" look-at="#target" material="color: black; shader: flat;">
-      <a-animation attribute="position" to="0 0 0" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
-    <!--  <a-animation attribute="material.color" begin="mouseenter" dur="1" to="blue"></a-animation>
-      <a-animation attribute="material.color" begin="mouseleave" dur="1" to="white"></a-animation>-->
+    <a-entity position="0 2 -5" obj-model="obj: #tree-obj2" material="color: blue;">
+      <a-animation attribute="position" to="0 3 -5" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
+      <a-animation attribute="material.color" begin="mouseenter" dur="500" from="blue" to="red"></a-animation>
+      <a-animation attribute="material.color" begin="mouseleave" dur="500" from="red" to="blue"></a-animation>
+      <a-animation attribute="rotation" begin="click" dur="1000" from="0 0 0" delay="100" to="0 360 0"></a-animation>
     </a-entity>
 
   <a-light type="ambient" color="#444" intensity="0.1"></a-light>
+  <a-light type="point" color="white" position="0 7 0" intensity="0.3">
+    <a-animation attribute="position" to="0 2 0" direction="alternate" dur="4000" repeat="indefinite"></a-animation>
+  </a-light>
 
-  <a-videosphere src="#video" rotation="0 0 0" radius="20"></a-videosphere>
-
-  <a-sky color="white"></a-sky>
+  <a-entity position="0 0 0" geometry="primitive: circle; radius: 3" material="shader:video;src:url(/vr_assets/videotext.mp4); side:double;" rotation="-90 0 0"></a-entity>
+  <a-sky color="black"></a-sky>
   <script>
 
     function playVid() {
       var vid = document.getElementById("video");
+      var vid2 = document.getElementById("video");
       var button = document.getElementById("playvideo");
         vid.play();
+        vid2.play();
         button.className="hidebutton";
     }
       function pauseVid() {
         var vid = document.getElementById("video");
+        var vid2 = document.getElementById("video");
         vid.pause();
+        vid2.pause();
     }
   </script>
-  <button id="playvideo" onclick="playVid();">Click to<br />join the experience!</button>
 </a-scene>
 
+  <button id="playvideo" onclick="playVid();">Click to<br>join the experience!</button>
   </body>
 </html>

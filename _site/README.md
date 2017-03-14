@@ -1,16 +1,8 @@
-Rodrigo Salmeron
+Portafolio personal
 ====
 
-Rediseño de [rodrigosalmeron.mx](http://rodrigosalmeron.mx).
+[rodrigosalmeron.mx](http://rodrigosalmeron.mx).
 
-**Compresion de imagenes**
-- general: 6 .jpg progressive
-- Merma: general
-- Kinoki: svg
-- Red: svg
-- Jack: general + svg(2-2)
-- Historia: general
-
-##Correcciones faltantes:
-- Tamaño del canvas
-- play/pausa del video
+**VR Playground**
+- [Reactive Noise](http://rodrigosalmeron.mx/vrplayground/reactive-noise-vr/).
+- [Pont & Stare _game_](http://rodrigosalmeron.mx/vrplayground/vrplayground/vr-game/).

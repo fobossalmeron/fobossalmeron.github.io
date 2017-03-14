@@ -9,6 +9,7 @@ permalink: sitemap/
 - [Inicio](/)
 - [Acerca de mi](/acercademi/)
 - [Contact](/contacto/)
+- [VRPlayground](/vrplayground/reactive-noise-vr/)
 
 ##Portafolio
 
