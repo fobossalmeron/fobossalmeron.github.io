@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Inicio
+title: VR Playground
+vr: true
 ---
 
 <div class="content">
-{% assign proyectosorden = site.portafolio | sort:"order" %}
+{% assign proyectosorden = site.vrportafolio | sort:"order" %}
 	{% for proyecto in proyectosorden %}
 	<figure>
       <a href="{{ proyecto.url }}">

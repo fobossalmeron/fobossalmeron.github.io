@@ -4,6 +4,9 @@ layout: default
   <div id="post-info">
     <div id="cover-photo-container">
       <img id="cover-photo" src="/images{{ page.url }}{{ page.cover }}" alt="Rodrigo Salmeron | {{ page.title }}">
+      {% if page.secondcover %}
+        <img class="secondcover" src="/images{{ page.url }}{{ page.secondcover }}" alt="Rodrigo Salmeron | {{ page.title }}">
+      {% endif %}
     </div>
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
@@ -13,9 +16,19 @@ layout: default
   <div class="post">
     <h2><em>Proyecto:</em> {{page.description}}</h2>
     {{ content }}
+    {% if page.video %}
+    <div class="video_container">
+      <iframe src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
     {% for image in page.images %}
     <img src="/images{{ page.url }}{{ image }}">
     {% endfor %}
+    {% if page.secondvideo %}
+    <div class="video_container">
+      <iframe src="{{ page.secondvideo }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
   </div>
   <div class="colophon">
     <p>
