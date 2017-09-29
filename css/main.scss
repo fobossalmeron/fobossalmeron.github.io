@@ -128,11 +128,20 @@ h1.title{
 #cover-photo-container,
 #info-container {
   display: block;
+  position: relative;
 }
 
 #cover-photo-container{
 	    max-height: 720px;
 	    overflow: hidden;
+}
+
+.secondcover{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100%;
 }
 
 #info-container {
@@ -211,6 +220,21 @@ object{
   width:100%;
 }
 
+.video_container{
+  height: 0;
+  padding-bottom:56.25%;
+  position: relative;
+  width:100%;
+  float:left;
+  iframe{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+  }
+}
+
 /*****************************************************************************/
 /*
 /* Sidebar and Content
@@ -231,6 +255,7 @@ object{
   padding: 0 4em;
   box-sizing: border-box;
   overflow: hidden;
+  position: relative;
 }
 
 nav {
@@ -324,7 +349,37 @@ nav {
   text-align: center;
   padding-top: 1em;
 }
-
+#virtualAnchor {
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 50px 0 0 50px;
+  border-color: transparent transparent transparent $black;
+  transition: .4s ease all;
+  &:hover{
+    border-color: transparent;
+    svg{
+      fill:$black;
+    }
+  }
+  svg {
+    fill:$white;
+    transition: .4s ease all;
+    position: absolute;
+    left: -47px;
+    bottom: 0;
+    width: 20px;
+  }
+}
+.VRactive{
+  border-color: transparent transparent transparent $white !important;
+  svg{
+    fill: $black !important;
+  }
+}
 #sidebar-button {
   height: intrinsic;
   cursor: pointer;
@@ -348,6 +403,7 @@ nav {
 .colophon {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
+  float:left;
 }
 
 .colophon p {
@@ -735,7 +791,6 @@ figcaption {
           }
     	}
 }
-
 
 /*  VR */
 

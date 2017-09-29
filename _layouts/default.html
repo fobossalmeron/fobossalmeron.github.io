@@ -10,23 +10,16 @@
        </div>
   {% endif %}
     <div class="site">
-      <div class="sidebar" id="sidebar">
-        <div class="header">
-          <h1 class="title">Rodrigo Salmerón</h1>
-          <a href="/"><img id="logo" src="/images/rodrigosalmerondesktop.svg" alt="Rodrigo Salmeron"></a>
-          <a href="/"><img id="logomobile" src="/images/rodrigosalmeron.svg" alt="Rodrigo Salmeron"></a>
-        </div>
-
-        <div class="contenedorOjo">
-          <div class="cajaOjo">
-                  <div id="cursorOjo"></div>
-          </div>
-        </div>
-
-{% include nav.html %}
-
-      </div>
-      <div class="content" id="home">
+      {% if page.vr == true %}
+        {% include sidebar.html nav="vrnav.html" %}
+        <div class="content" id="home">
+          {% if page.title != 'VR Playground' %}
+          <iframe id="exampleIframe" class="example__iframe" allowfullscreen="" scrolling="no" allowvr="yes" src="{{ page.vrclave }}"></iframe>
+          {% endif %}
+      {% else %}
+        {% include sidebar.html nav="nav.html" %}
+        <div class="content" id="home">
+      {% endif %}
         {{ content }}
       </div>
     </div>
