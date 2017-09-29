@@ -13,7 +13,9 @@
       {% if page.vr == true %}
         {% include sidebar.html nav="vrnav.html" %}
         <div class="content" id="home">
+          {% if page.title != 'VR Playground' %}
           <iframe id="exampleIframe" class="example__iframe" allowfullscreen="" scrolling="no" allowvr="yes" src="{{ page.vrclave }}"></iframe>
+          {% endif %}
       {% else %}
         {% include sidebar.html nav="nav.html" %}
         <div class="content" id="home">

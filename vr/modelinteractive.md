@@ -1,6 +1,6 @@
 ---
 layout: vrexperiment
-title: VR Experiment No.3
+title: Model Interactive
 ---
 <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.3.4/dist/aframe-extras.min.js"></script>
 <script src="/scripts/vr_scripts/look-at.js"></script>

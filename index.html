@@ -3,7 +3,6 @@ layout: default
 title: Inicio
 ---
 
-<div class="content">
 {% assign proyectosorden = site.portafolio | sort:"order" %}
 	{% for proyecto in proyectosorden %}
 	<figure>
@@ -20,4 +19,3 @@ title: Inicio
     </figcaption>
     </figure>
 {% endfor %}
-</div>

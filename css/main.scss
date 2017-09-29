@@ -255,6 +255,7 @@ object{
   padding: 0 4em;
   box-sizing: border-box;
   overflow: hidden;
+  position: relative;
 }
 
 nav {
@@ -373,7 +374,12 @@ nav {
     width: 20px;
   }
 }
-
+.VRactive{
+  border-color: transparent transparent transparent $white !important;
+  svg{
+    fill: $black !important;
+  }
+}
 #sidebar-button {
   height: intrinsic;
   cursor: pointer;

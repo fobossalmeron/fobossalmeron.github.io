@@ -4,7 +4,7 @@ title: VR Playground
 vr: true
 ---
 
-<div class="content">
+<div>
 {% assign proyectosorden = site.vrportafolio | sort:"order" %}
 	{% for proyecto in proyectosorden %}
 	<figure>
