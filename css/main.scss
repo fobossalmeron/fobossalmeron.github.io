@@ -404,6 +404,7 @@ nav {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
   float:left;
+  width: 100%;
 }
 
 .colophon p {
@@ -609,9 +610,7 @@ textarea{
   animation: rotate 3s linear infinite;
   -moz-animation: rotate 3s linear infinite;
   -webkit-animation: rotate 1s linear infinite;
-  transform-origin: 50% 50%;
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 35.5px 74.6px;
+  transform-origin: 36px 75px;
 }
 
 @-webkit-keyframes rotate {
